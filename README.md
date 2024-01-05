@@ -8,7 +8,9 @@ We introduce RoleEval, a bilingual benchmark designed to assess the memorization
 
 If you want to submit your model's predictions to our leaderboard, please feel free to contact us via thshen@tju.edu.cn for more details.
 
-**NOTE: Models below are sorted by the weighted average of the accuracy of RoleEval-Global and RoleEval-Chinese.**
+**NOTE:**
+1. **Models below are sorted by the weighted average of the accuracy of RoleEval-Global and RoleEval-Chinese.**
+2. **\* indicates the results calculated by submitted predictions.**
 
 ### RoleEval (zh)
 
@@ -26,17 +28,17 @@ If you want to submit your model's predictions to our leaderboard, please feel f
 		<td colspan=6 align="center" valign=middle><b><font color="#000000">RoleEval-Chinese (2,000 questions)</font></b></td>
 		</tr>
 	<tr>
-		<td align="center" valign=middle><b><font color="#000000">CE</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">AC</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">MT</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">GA</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">FI</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Celebrities</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Anime and Comics</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Movies and TV Series</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Games</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Fiction</font></b></td>
 		<td align="center" valign=middle><b><font color="#000000">Avg.</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">CE</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">AC</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">MT</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">GA</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">FI</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Celebrities</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Anime and Comics</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Movies and TV Series</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Games</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Fiction</font></b></td>
 		<td align="center" valign=middle><b><font color="#000000">Avg.</font></b></td>
 	</tr>
 	<tr>
@@ -85,6 +87,21 @@ If you want to submit your model's predictions to our leaderboard, please feel f
 		<td align="center" valign=middle sdval="66.2" sdnum="1033;0;0.00"><b><font color="#000000">66.20</font></b></td>
 	</tr>
 	<tr>
+		<td height="21" align="center" valign=middle><b><font color="#000000">Baichuan2-Character-Turbo*</font></b></td>
+		<td align="center" valign=middle sdval="72.88" sdnum="1033;0;0.00"><font color="#000000">72.25</font></td>
+		<td align="center" valign=middle sdval="63.88" sdnum="1033;0;0.00"><font color="#000000">65.25</font></td>
+		<td align="center" valign=middle sdval="70.38" sdnum="1033;0;0.00"><font color="#000000">64.62</font></td>
+		<td align="center" valign=middle sdval="56.75" sdnum="1033;0;0.00"><font color="#000000">55.50</font></td>
+		<td align="center" valign=middle sdval="73.5" sdnum="1033;0;0.00"><font color="#000000">72.75</font></td>
+		<td align="center" valign=middle sdval="67.47" sdnum="1033;0;0.00"><font color="#000000">66.07</font></td>
+		<td align="center" valign=middle sdval="70" sdnum="1033;0;0.00"><font color="#000000">66.25</font></td>
+		<td align="center" valign=middle sdval="59.75" sdnum="1033;0;0.00"><font color="#000000">61.00</font></td>
+		<td align="center" valign=middle sdval="66" sdnum="1033;0;0.00"><b><font color="#000000">71.50</font></b></td>
+		<td align="center" valign=middle sdval="61.25" sdnum="1033;0;0.00"><font color="#000000">54.25</font></td>
+		<td align="center" valign=middle sdval="74" sdnum="1033;0;0.00"><font color="#000000">76.25</font></td>
+		<td align="center" valign=middle sdval="66.2" sdnum="1033;0;0.00"><font color="#000000">65.85</font></td>
+	</tr>
+	<tr>
 		<td height="21" align="center" valign=middle><b><font color="#000000">Yi-34B</font></b></td>
 		<td align="center" valign=middle sdval="72.38" sdnum="1033;0;0.00"><font color="#000000">72.38</font></td>
 		<td align="center" valign=middle sdval="60.62" sdnum="1033;0;0.00"><font color="#000000">60.62</font></td>
@@ -94,10 +111,25 @@ If you want to submit your model's predictions to our leaderboard, please feel f
 		<td align="center" valign=middle sdval="65.83" sdnum="1033;0;0.00"><font color="#000000">65.83</font></td>
 		<td align="center" valign=middle sdval="65.5" sdnum="1033;0;0.00"><font color="#000000">65.50</font></td>
 		<td align="center" valign=middle sdval="54.5" sdnum="1033;0;0.00"><font color="#000000">54.50</font></td>
-		<td align="center" valign=middle sdval="70" sdnum="1033;0;0.00"><b><font color="#000000">70.00</font></b></td>
+		<td align="center" valign=middle sdval="70" sdnum="1033;0;0.00"><font color="#000000">70.00</font></td>
 		<td align="center" valign=middle sdval="56" sdnum="1033;0;0.00"><font color="#000000">56.00</font></td>
 		<td align="center" valign=middle sdval="77" sdnum="1033;0;0.00"><b><font color="#000000">77.00</font></b></td>
 		<td align="center" valign=middle sdval="64.6" sdnum="1033;0;0.00"><font color="#000000">64.60</font></td>
+	</tr>
+	<tr>
+		<td height="21" align="center" valign=middle><b><font color="#000000">Baichuan2-Character-Lite*</font></b></td>
+		<td align="center" valign=middle sdval="72.38" sdnum="1033;0;0.00"><font color="#000000">60.62</font></td>
+		<td align="center" valign=middle sdval="60.62" sdnum="1033;0;0.00"><font color="#000000">56.62</font></td>
+		<td align="center" valign=middle sdval="69.75" sdnum="1033;0;0.00"><font color="#000000">51.88</font></td>
+		<td align="center" valign=middle sdval="53.25" sdnum="1033;0;0.00"><font color="#000000">48.25</font></td>
+		<td align="center" valign=middle sdval="73.12" sdnum="1033;0;0.00"><font color="#000000">62.12</font></td>
+		<td align="center" valign=middle sdval="65.83" sdnum="1033;0;0.00"><font color="#000000">55.90</font></td>
+		<td align="center" valign=middle sdval="65.5" sdnum="1033;0;0.00"><font color="#000000">56.00</font></td>
+		<td align="center" valign=middle sdval="54.5" sdnum="1033;0;0.00"><font color="#000000">51.75</font></td>
+		<td align="center" valign=middle sdval="70" sdnum="1033;0;0.00"><font color="#000000">56.75</font></td>
+		<td align="center" valign=middle sdval="56" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
+		<td align="center" valign=middle sdval="77" sdnum="1033;0;0.00"><font color="#000000">62.00</font></td>
+		<td align="center" valign=middle sdval="64.6" sdnum="1033;0;0.00"><font color="#000000">54.80</font></td>
 	</tr>
 	<tr>
 		<td height="21" align="center" valign=middle><b><font color="#000000">MiniMax</font></b></td>
@@ -447,17 +479,17 @@ If you want to submit your model's predictions to our leaderboard, please feel f
 		<td colspan=6 align="center" valign=middle><b><font color="#000000">RoleEval-Chinese (2,000 questions)</font></b></td>
 		</tr>
 	<tr>
-		<td align="center" valign=middle><b><font color="#000000">CE</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">AC</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">MT</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">GA</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">FI</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Celebrities</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Anime and Comics</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Movies and TV Series</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Games</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Fiction</font></b></td>
 		<td align="center" valign=middle><b><font color="#000000">Avg.</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">CE</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">AC</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">MT</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">GA</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">FI</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Celebrities</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Anime and Comics</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Movies and TV Series</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Games</font></b></td>
+		<td align="center" valign=middle><b><font color="#000000">Fiction</font></b></td>
 		<td align="center" valign=middle><b><font color="#000000">Avg.</font></b></td>
 	</tr>
 	<tr>
