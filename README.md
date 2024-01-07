@@ -8,881 +8,143 @@ We introduce RoleEval, a bilingual benchmark designed to assess the memorization
 
 If you want to submit your model's predictions to our leaderboard, please feel free to contact us via thshen@tju.edu.cn for more details.
 
-**NOTE:**
-1. **Models below are sorted by the weighted average of the accuracy of RoleEval-Global and RoleEval-Chinese.**
-2. **\* indicates the results calculated by submitted predictions.**
+**NOTE: \* indicates the results calculated by submitted predictions.**
 
 ### RoleEval (zh)
 
-<table cellspacing="0" border="0">
-	<colgroup width="211"></colgroup>
-	<colgroup span="2" width="50"></colgroup>
-	<colgroup width="51"></colgroup>
-	<colgroup span="5" width="50"></colgroup>
-	<colgroup width="51"></colgroup>
-	<colgroup span="2" width="50"></colgroup>
-	<colgroup width="54"></colgroup>
-	<tr>
-		<td rowspan=2 height="43" align="center" valign=middle><b><font color="#000000">Model</font></b></td>
-		<td colspan=6 align="center" valign=middle><b><font color="#000000">RoleEval-Global (4,000 questions)</font></b></td>
-		<td colspan=6 align="center" valign=middle><b><font color="#000000">RoleEval-Chinese (2,000 questions)</font></b></td>
-		</tr>
-	<tr>
-		<td align="center" valign=middle><b><font color="#000000">Celebrities</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Anime and Comics</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Movies and TV Series</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Games</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Fiction</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Avg.</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Celebrities</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Anime and Comics</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Movies and TV Series</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Games</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Fiction</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Avg.</font></b></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">GPT-4-1106</font></b></td>
-		<td align="center" valign=middle sdval="74.75" sdnum="1033;0;0.00"><b><font color="#000000">74.75</font></b></td>
-		<td align="center" valign=middle sdval="73.62" sdnum="1033;0;0.00"><b><font color="#000000">73.62</font></b></td>
-		<td align="center" valign=middle sdval="74.38" sdnum="1033;0;0.00"><b><font color="#000000">74.38</font></b></td>
-		<td align="center" valign=middle sdval="72.5" sdnum="1033;0;0.00"><b><font color="#000000">72.50</font></b></td>
-		<td align="center" valign=middle sdval="71.62" sdnum="1033;0;0.00"><font color="#000000">71.62</font></td>
-		<td align="center" valign=middle sdval="73.38" sdnum="1033;0;0.00"><b><font color="#000000">73.38</font></b></td>
-		<td align="center" valign=middle sdval="62.5" sdnum="1033;0;0.00"><font color="#000000">62.50</font></td>
-		<td align="center" valign=middle sdval="63.25" sdnum="1033;0;0.00"><b><font color="#000000">63.25</font></b></td>
-		<td align="center" valign=middle sdval="63" sdnum="1033;0;0.00"><font color="#000000">63.00</font></td>
-		<td align="center" valign=middle sdval="62" sdnum="1033;0;0.00"><b><font color="#000000">62.00</font></b></td>
-		<td align="center" valign=middle sdval="63" sdnum="1033;0;0.00"><font color="#000000">63.00</font></td>
-		<td align="center" valign=middle sdval="62.75" sdnum="1033;0;0.00"><font color="#000000">62.75</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">GPT-4-0613</font></b></td>
-		<td align="center" valign=middle sdval="73.38" sdnum="1033;0;0.00"><font color="#000000">73.38</font></td>
-		<td align="center" valign=middle sdval="72.12" sdnum="1033;0;0.00"><font color="#000000">72.12</font></td>
-		<td align="center" valign=middle sdval="74.25" sdnum="1033;0;0.00"><font color="#000000">74.25</font></td>
-		<td align="center" valign=middle sdval="72.25" sdnum="1033;0;0.00"><font color="#000000">72.25</font></td>
-		<td align="center" valign=middle sdval="69.62" sdnum="1033;0;0.00"><font color="#000000">69.62</font></td>
-		<td align="center" valign=middle sdval="72.32" sdnum="1033;0;0.00"><font color="#000000">72.32</font></td>
-		<td align="center" valign=middle sdval="57.75" sdnum="1033;0;0.00"><font color="#000000">57.75</font></td>
-		<td align="center" valign=middle sdval="60.25" sdnum="1033;0;0.00"><font color="#000000">60.25</font></td>
-		<td align="center" valign=middle sdval="57.75" sdnum="1033;0;0.00"><font color="#000000">57.75</font></td>
-		<td align="center" valign=middle sdval="60" sdnum="1033;0;0.00"><font color="#000000">60.00</font></td>
-		<td align="center" valign=middle sdval="58" sdnum="1033;0;0.00"><font color="#000000">58.00</font></td>
-		<td align="center" valign=middle sdval="58.75" sdnum="1033;0;0.00"><font color="#000000">58.75</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Qwen-72B</font></b></td>
-		<td align="center" valign=middle sdval="72.88" sdnum="1033;0;0.00"><font color="#000000">72.88</font></td>
-		<td align="center" valign=middle sdval="63.88" sdnum="1033;0;0.00"><font color="#000000">63.88</font></td>
-		<td align="center" valign=middle sdval="70.38" sdnum="1033;0;0.00"><font color="#000000">70.38</font></td>
-		<td align="center" valign=middle sdval="56.75" sdnum="1033;0;0.00"><font color="#000000">56.75</font></td>
-		<td align="center" valign=middle sdval="73.5" sdnum="1033;0;0.00"><b><font color="#000000">73.50</font></b></td>
-		<td align="center" valign=middle sdval="67.47" sdnum="1033;0;0.00"><font color="#000000">67.47</font></td>
-		<td align="center" valign=middle sdval="70" sdnum="1033;0;0.00"><b><font color="#000000">70.00</font></b></td>
-		<td align="center" valign=middle sdval="59.75" sdnum="1033;0;0.00"><font color="#000000">59.75</font></td>
-		<td align="center" valign=middle sdval="66" sdnum="1033;0;0.00"><font color="#000000">66.00</font></td>
-		<td align="center" valign=middle sdval="61.25" sdnum="1033;0;0.00"><font color="#000000">61.25</font></td>
-		<td align="center" valign=middle sdval="74" sdnum="1033;0;0.00"><font color="#000000">74.00</font></td>
-		<td align="center" valign=middle sdval="66.2" sdnum="1033;0;0.00"><b><font color="#000000">66.20</font></b></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Baichuan2-Character-Turbo*</font></b></td>
-		<td align="center" valign=middle sdval="72.88" sdnum="1033;0;0.00"><font color="#000000">72.25</font></td>
-		<td align="center" valign=middle sdval="63.88" sdnum="1033;0;0.00"><font color="#000000">65.25</font></td>
-		<td align="center" valign=middle sdval="70.38" sdnum="1033;0;0.00"><font color="#000000">64.62</font></td>
-		<td align="center" valign=middle sdval="56.75" sdnum="1033;0;0.00"><font color="#000000">55.50</font></td>
-		<td align="center" valign=middle sdval="73.5" sdnum="1033;0;0.00"><font color="#000000">72.75</font></td>
-		<td align="center" valign=middle sdval="67.47" sdnum="1033;0;0.00"><font color="#000000">66.07</font></td>
-		<td align="center" valign=middle sdval="70" sdnum="1033;0;0.00"><font color="#000000">66.25</font></td>
-		<td align="center" valign=middle sdval="59.75" sdnum="1033;0;0.00"><font color="#000000">61.00</font></td>
-		<td align="center" valign=middle sdval="66" sdnum="1033;0;0.00"><b><font color="#000000">71.50</font></b></td>
-		<td align="center" valign=middle sdval="61.25" sdnum="1033;0;0.00"><font color="#000000">54.25</font></td>
-		<td align="center" valign=middle sdval="74" sdnum="1033;0;0.00"><font color="#000000">76.25</font></td>
-		<td align="center" valign=middle sdval="66.2" sdnum="1033;0;0.00"><font color="#000000">65.85</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Yi-34B</font></b></td>
-		<td align="center" valign=middle sdval="72.38" sdnum="1033;0;0.00"><font color="#000000">72.38</font></td>
-		<td align="center" valign=middle sdval="60.62" sdnum="1033;0;0.00"><font color="#000000">60.62</font></td>
-		<td align="center" valign=middle sdval="69.75" sdnum="1033;0;0.00"><font color="#000000">69.75</font></td>
-		<td align="center" valign=middle sdval="53.25" sdnum="1033;0;0.00"><font color="#000000">53.25</font></td>
-		<td align="center" valign=middle sdval="73.12" sdnum="1033;0;0.00"><font color="#000000">73.12</font></td>
-		<td align="center" valign=middle sdval="65.83" sdnum="1033;0;0.00"><font color="#000000">65.83</font></td>
-		<td align="center" valign=middle sdval="65.5" sdnum="1033;0;0.00"><font color="#000000">65.50</font></td>
-		<td align="center" valign=middle sdval="54.5" sdnum="1033;0;0.00"><font color="#000000">54.50</font></td>
-		<td align="center" valign=middle sdval="70" sdnum="1033;0;0.00"><font color="#000000">70.00</font></td>
-		<td align="center" valign=middle sdval="56" sdnum="1033;0;0.00"><font color="#000000">56.00</font></td>
-		<td align="center" valign=middle sdval="77" sdnum="1033;0;0.00"><b><font color="#000000">77.00</font></b></td>
-		<td align="center" valign=middle sdval="64.6" sdnum="1033;0;0.00"><font color="#000000">64.60</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Baichuan2-Character-Lite*</font></b></td>
-		<td align="center" valign=middle sdval="72.38" sdnum="1033;0;0.00"><font color="#000000">60.62</font></td>
-		<td align="center" valign=middle sdval="60.62" sdnum="1033;0;0.00"><font color="#000000">56.62</font></td>
-		<td align="center" valign=middle sdval="69.75" sdnum="1033;0;0.00"><font color="#000000">51.88</font></td>
-		<td align="center" valign=middle sdval="53.25" sdnum="1033;0;0.00"><font color="#000000">48.25</font></td>
-		<td align="center" valign=middle sdval="73.12" sdnum="1033;0;0.00"><font color="#000000">62.12</font></td>
-		<td align="center" valign=middle sdval="65.83" sdnum="1033;0;0.00"><font color="#000000">55.90</font></td>
-		<td align="center" valign=middle sdval="65.5" sdnum="1033;0;0.00"><font color="#000000">56.00</font></td>
-		<td align="center" valign=middle sdval="54.5" sdnum="1033;0;0.00"><font color="#000000">51.75</font></td>
-		<td align="center" valign=middle sdval="70" sdnum="1033;0;0.00"><font color="#000000">56.75</font></td>
-		<td align="center" valign=middle sdval="56" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
-		<td align="center" valign=middle sdval="77" sdnum="1033;0;0.00"><font color="#000000">62.00</font></td>
-		<td align="center" valign=middle sdval="64.6" sdnum="1033;0;0.00"><font color="#000000">54.80</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">MiniMax</font></b></td>
-		<td align="center" valign=middle sdval="51.75" sdnum="1033;0;0.00"><font color="#000000">51.75</font></td>
-		<td align="center" valign=middle sdval="54.5" sdnum="1033;0;0.00"><font color="#000000">54.50</font></td>
-		<td align="center" valign=middle sdval="62.62" sdnum="1033;0;0.00"><font color="#000000">62.62</font></td>
-		<td align="center" valign=middle sdval="56.75" sdnum="1033;0;0.00"><font color="#000000">56.75</font></td>
-		<td align="center" valign=middle sdval="52.75" sdnum="1033;0;0.00"><font color="#000000">52.75</font></td>
-		<td align="center" valign=middle sdval="55.67" sdnum="1033;0;0.00"><font color="#000000">55.67</font></td>
-		<td align="center" valign=middle sdval="54" sdnum="1033;0;0.00"><font color="#000000">54.00</font></td>
-		<td align="center" valign=middle sdval="55" sdnum="1033;0;0.00"><font color="#000000">55.00</font></td>
-		<td align="center" valign=middle sdval="52.75" sdnum="1033;0;0.00"><font color="#000000">52.75</font></td>
-		<td align="center" valign=middle sdval="57.5" sdnum="1033;0;0.00"><font color="#000000">57.50</font></td>
-		<td align="center" valign=middle sdval="54" sdnum="1033;0;0.00"><font color="#000000">54.00</font></td>
-		<td align="center" valign=middle sdval="54.65" sdnum="1033;0;0.00"><font color="#000000">54.65</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Yi-6B</font></b></td>
-		<td align="center" valign=middle sdval="61.88" sdnum="1033;0;0.00"><font color="#000000">61.88</font></td>
-		<td align="center" valign=middle sdval="51.38" sdnum="1033;0;0.00"><font color="#000000">51.38</font></td>
-		<td align="center" valign=middle sdval="52.38" sdnum="1033;0;0.00"><font color="#000000">52.38</font></td>
-		<td align="center" valign=middle sdval="45.38" sdnum="1033;0;0.00"><font color="#000000">45.38</font></td>
-		<td align="center" valign=middle sdval="60.75" sdnum="1033;0;0.00"><font color="#000000">60.75</font></td>
-		<td align="center" valign=middle sdval="54.35" sdnum="1033;0;0.00"><font color="#000000">54.35</font></td>
-		<td align="center" valign=middle sdval="59.25" sdnum="1033;0;0.00"><font color="#000000">59.25</font></td>
-		<td align="center" valign=middle sdval="46" sdnum="1033;0;0.00"><font color="#000000">46.00</font></td>
-		<td align="center" valign=middle sdval="61.5" sdnum="1033;0;0.00"><font color="#000000">61.50</font></td>
-		<td align="center" valign=middle sdval="47.75" sdnum="1033;0;0.00"><font color="#000000">47.75</font></td>
-		<td align="center" valign=middle sdval="62" sdnum="1033;0;0.00"><font color="#000000">62.00</font></td>
-		<td align="center" valign=middle sdval="55.3" sdnum="1033;0;0.00"><font color="#000000">55.30</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Qwen-14B</font></b></td>
-		<td align="center" valign=middle sdval="62.5" sdnum="1033;0;0.00"><font color="#000000">62.50</font></td>
-		<td align="center" valign=middle sdval="52.38" sdnum="1033;0;0.00"><font color="#000000">52.38</font></td>
-		<td align="center" valign=middle sdval="55" sdnum="1033;0;0.00"><font color="#000000">55.00</font></td>
-		<td align="center" valign=middle sdval="45.5" sdnum="1033;0;0.00"><font color="#000000">45.50</font></td>
-		<td align="center" valign=middle sdval="58" sdnum="1033;0;0.00"><font color="#000000">58.00</font></td>
-		<td align="center" valign=middle sdval="54.67" sdnum="1033;0;0.00"><font color="#000000">54.67</font></td>
-		<td align="center" valign=middle sdval="56.25" sdnum="1033;0;0.00"><font color="#000000">56.25</font></td>
-		<td align="center" valign=middle sdval="45.5" sdnum="1033;0;0.00"><font color="#000000">45.50</font></td>
-		<td align="center" valign=middle sdval="54.75" sdnum="1033;0;0.00"><font color="#000000">54.75</font></td>
-		<td align="center" valign=middle sdval="51.5" sdnum="1033;0;0.00"><font color="#000000">51.50</font></td>
-		<td align="center" valign=middle sdval="56.75" sdnum="1033;0;0.00"><font color="#000000">56.75</font></td>
-		<td align="center" valign=middle sdval="52.95" sdnum="1033;0;0.00"><font color="#000000">52.95</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Baichuan2-13B</font></b></td>
-		<td align="center" valign=middle sdval="60.25" sdnum="1033;0;0.00"><font color="#000000">60.25</font></td>
-		<td align="center" valign=middle sdval="52.38" sdnum="1033;0;0.00"><font color="#000000">52.38</font></td>
-		<td align="center" valign=middle sdval="51" sdnum="1033;0;0.00"><font color="#000000">51.00</font></td>
-		<td align="center" valign=middle sdval="46.88" sdnum="1033;0;0.00"><font color="#000000">46.88</font></td>
-		<td align="center" valign=middle sdval="60.75" sdnum="1033;0;0.00"><font color="#000000">60.75</font></td>
-		<td align="center" valign=middle sdval="54.25" sdnum="1033;0;0.00"><font color="#000000">54.25</font></td>
-		<td align="center" valign=middle sdval="54.75" sdnum="1033;0;0.00"><font color="#000000">54.75</font></td>
-		<td align="center" valign=middle sdval="47.75" sdnum="1033;0;0.00"><font color="#000000">47.75</font></td>
-		<td align="center" valign=middle sdval="54" sdnum="1033;0;0.00"><font color="#000000">54.00</font></td>
-		<td align="center" valign=middle sdval="47.5" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
-		<td align="center" valign=middle sdval="60" sdnum="1033;0;0.00"><font color="#000000">60.00</font></td>
-		<td align="center" valign=middle sdval="52.8" sdnum="1033;0;0.00"><font color="#000000">52.80</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Skywork-13B</font></b></td>
-		<td align="center" valign=middle sdval="59.13" sdnum="1033;0;0.00"><font color="#000000">59.13</font></td>
-		<td align="center" valign=middle sdval="51.75" sdnum="1033;0;0.00"><font color="#000000">51.75</font></td>
-		<td align="center" valign=middle sdval="51.88" sdnum="1033;0;0.00"><font color="#000000">51.88</font></td>
-		<td align="center" valign=middle sdval="44.5" sdnum="1033;0;0.00"><font color="#000000">44.50</font></td>
-		<td align="center" valign=middle sdval="58.75" sdnum="1033;0;0.00"><font color="#000000">58.75</font></td>
-		<td align="center" valign=middle sdval="53.2" sdnum="1033;0;0.00"><font color="#000000">53.20</font></td>
-		<td align="center" valign=middle sdval="55.25" sdnum="1033;0;0.00"><font color="#000000">55.25</font></td>
-		<td align="center" valign=middle sdval="45.75" sdnum="1033;0;0.00"><font color="#000000">45.75</font></td>
-		<td align="center" valign=middle sdval="56" sdnum="1033;0;0.00"><font color="#000000">56.00</font></td>
-		<td align="center" valign=middle sdval="48.5" sdnum="1033;0;0.00"><font color="#000000">48.50</font></td>
-		<td align="center" valign=middle sdval="57.5" sdnum="1033;0;0.00"><font color="#000000">57.50</font></td>
-		<td align="center" valign=middle sdval="52.6" sdnum="1033;0;0.00"><font color="#000000">52.60</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">ChatGLM3-6B</font></b></td>
-		<td align="center" valign=middle sdval="56.5" sdnum="1033;0;0.00"><font color="#000000">56.50</font></td>
-		<td align="center" valign=middle sdval="47.62" sdnum="1033;0;0.00"><font color="#000000">47.62</font></td>
-		<td align="center" valign=middle sdval="48.38" sdnum="1033;0;0.00"><font color="#000000">48.38</font></td>
-		<td align="center" valign=middle sdval="41.88" sdnum="1033;0;0.00"><font color="#000000">41.88</font></td>
-		<td align="center" valign=middle sdval="54.5" sdnum="1033;0;0.00"><font color="#000000">54.50</font></td>
-		<td align="center" valign=middle sdval="49.78" sdnum="1033;0;0.00"><font color="#000000">49.78</font></td>
-		<td align="center" valign=middle sdval="50" sdnum="1033;0;0.00"><font color="#000000">50.00</font></td>
-		<td align="center" valign=middle sdval="44.5" sdnum="1033;0;0.00"><font color="#000000">44.50</font></td>
-		<td align="center" valign=middle sdval="48" sdnum="1033;0;0.00"><font color="#000000">48.00</font></td>
-		<td align="center" valign=middle sdval="44.25" sdnum="1033;0;0.00"><font color="#000000">44.25</font></td>
-		<td align="center" valign=middle sdval="58" sdnum="1033;0;0.00"><font color="#000000">58.00</font></td>
-		<td align="center" valign=middle sdval="48.95" sdnum="1033;0;0.00"><font color="#000000">48.95</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Baichuan2-7B</font></b></td>
-		<td align="center" valign=middle sdval="56" sdnum="1033;0;0.00"><font color="#000000">56.00</font></td>
-		<td align="center" valign=middle sdval="49.62" sdnum="1033;0;0.00"><font color="#000000">49.62</font></td>
-		<td align="center" valign=middle sdval="45.5" sdnum="1033;0;0.00"><font color="#000000">45.50</font></td>
-		<td align="center" valign=middle sdval="40.5" sdnum="1033;0;0.00"><font color="#000000">40.50</font></td>
-		<td align="center" valign=middle sdval="52.38" sdnum="1033;0;0.00"><font color="#000000">52.38</font></td>
-		<td align="center" valign=middle sdval="48.8" sdnum="1033;0;0.00"><font color="#000000">48.80</font></td>
-		<td align="center" valign=middle sdval="52.25" sdnum="1033;0;0.00"><font color="#000000">52.25</font></td>
-		<td align="center" valign=middle sdval="43.75" sdnum="1033;0;0.00"><font color="#000000">43.75</font></td>
-		<td align="center" valign=middle sdval="49" sdnum="1033;0;0.00"><font color="#000000">49.00</font></td>
-		<td align="center" valign=middle sdval="47.25" sdnum="1033;0;0.00"><font color="#000000">47.25</font></td>
-		<td align="center" valign=middle sdval="55" sdnum="1033;0;0.00"><font color="#000000">55.00</font></td>
-		<td align="center" valign=middle sdval="49.45" sdnum="1033;0;0.00"><font color="#000000">49.45</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">GPT-3.5-1106</font></b></td>
-		<td align="center" valign=middle sdval="48.75" sdnum="1033;0;0.00"><font color="#000000">48.75</font></td>
-		<td align="center" valign=middle sdval="51.88" sdnum="1033;0;0.00"><font color="#000000">51.88</font></td>
-		<td align="center" valign=middle sdval="51.25" sdnum="1033;0;0.00"><font color="#000000">51.25</font></td>
-		<td align="center" valign=middle sdval="49.88" sdnum="1033;0;0.00"><font color="#000000">49.88</font></td>
-		<td align="center" valign=middle sdval="48.38" sdnum="1033;0;0.00"><font color="#000000">48.38</font></td>
-		<td align="center" valign=middle sdval="50.02" sdnum="1033;0;0.00"><font color="#000000">50.02</font></td>
-		<td align="center" valign=middle sdval="47.5" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
-		<td align="center" valign=middle sdval="46.75" sdnum="1033;0;0.00"><font color="#000000">46.75</font></td>
-		<td align="center" valign=middle sdval="41.75" sdnum="1033;0;0.00"><font color="#000000">41.75</font></td>
-		<td align="center" valign=middle sdval="44.75" sdnum="1033;0;0.00"><font color="#000000">44.75</font></td>
-		<td align="center" valign=middle sdval="38.75" sdnum="1033;0;0.00"><font color="#000000">38.75</font></td>
-		<td align="center" valign=middle sdval="43.9" sdnum="1033;0;0.00"><font color="#000000">43.90</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Qwen-7B</font></b></td>
-		<td align="center" valign=middle sdval="54.75" sdnum="1033;0;0.00"><font color="#000000">54.75</font></td>
-		<td align="center" valign=middle sdval="44.38" sdnum="1033;0;0.00"><font color="#000000">44.38</font></td>
-		<td align="center" valign=middle sdval="44.62" sdnum="1033;0;0.00"><font color="#000000">44.62</font></td>
-		<td align="center" valign=middle sdval="42.75" sdnum="1033;0;0.00"><font color="#000000">42.75</font></td>
-		<td align="center" valign=middle sdval="53" sdnum="1033;0;0.00"><font color="#000000">53.00</font></td>
-		<td align="center" valign=middle sdval="47.9" sdnum="1033;0;0.00"><font color="#000000">47.90</font></td>
-		<td align="center" valign=middle sdval="49" sdnum="1033;0;0.00"><font color="#000000">49.00</font></td>
-		<td align="center" valign=middle sdval="42" sdnum="1033;0;0.00"><font color="#000000">42.00</font></td>
-		<td align="center" valign=middle sdval="47.5" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
-		<td align="center" valign=middle sdval="44.75" sdnum="1033;0;0.00"><font color="#000000">44.75</font></td>
-		<td align="center" valign=middle sdval="51.25" sdnum="1033;0;0.00"><font color="#000000">51.25</font></td>
-		<td align="center" valign=middle sdval="46.9" sdnum="1033;0;0.00"><font color="#000000">46.90</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">GPT-3.5-0613</font></b></td>
-		<td align="center" valign=middle sdval="46.62" sdnum="1033;0;0.00"><font color="#000000">46.62</font></td>
-		<td align="center" valign=middle sdval="48.38" sdnum="1033;0;0.00"><font color="#000000">48.38</font></td>
-		<td align="center" valign=middle sdval="51.75" sdnum="1033;0;0.00"><font color="#000000">51.75</font></td>
-		<td align="center" valign=middle sdval="49.5" sdnum="1033;0;0.00"><font color="#000000">49.50</font></td>
-		<td align="center" valign=middle sdval="47.38" sdnum="1033;0;0.00"><font color="#000000">47.38</font></td>
-		<td align="center" valign=middle sdval="48.73" sdnum="1033;0;0.00"><font color="#000000">48.73</font></td>
-		<td align="center" valign=middle sdval="42.25" sdnum="1033;0;0.00"><font color="#000000">42.25</font></td>
-		<td align="center" valign=middle sdval="43.5" sdnum="1033;0;0.00"><font color="#000000">43.50</font></td>
-		<td align="center" valign=middle sdval="39.75" sdnum="1033;0;0.00"><font color="#000000">39.75</font></td>
-		<td align="center" valign=middle sdval="43.75" sdnum="1033;0;0.00"><font color="#000000">43.75</font></td>
-		<td align="center" valign=middle sdval="39" sdnum="1033;0;0.00"><font color="#000000">39.00</font></td>
-		<td align="center" valign=middle sdval="41.65" sdnum="1033;0;0.00"><font color="#000000">41.65</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-2-70B</font></b></td>
-		<td align="center" valign=middle sdval="53.5" sdnum="1033;0;0.00"><font color="#000000">53.50</font></td>
-		<td align="center" valign=middle sdval="43.25" sdnum="1033;0;0.00"><font color="#000000">43.25</font></td>
-		<td align="center" valign=middle sdval="39.25" sdnum="1033;0;0.00"><font color="#000000">39.25</font></td>
-		<td align="center" valign=middle sdval="40.25" sdnum="1033;0;0.00"><font color="#000000">40.25</font></td>
-		<td align="center" valign=middle sdval="47.25" sdnum="1033;0;0.00"><font color="#000000">47.25</font></td>
-		<td align="center" valign=middle sdval="44.7" sdnum="1033;0;0.00"><font color="#000000">44.70</font></td>
-		<td align="center" valign=middle sdval="36" sdnum="1033;0;0.00"><font color="#000000">36.00</font></td>
-		<td align="center" valign=middle sdval="38" sdnum="1033;0;0.00"><font color="#000000">38.00</font></td>
-		<td align="center" valign=middle sdval="36.25" sdnum="1033;0;0.00"><font color="#000000">36.25</font></td>
-		<td align="center" valign=middle sdval="36.25" sdnum="1033;0;0.00"><font color="#000000">36.25</font></td>
-		<td align="center" valign=middle sdval="34.75" sdnum="1033;0;0.00"><font color="#000000">34.75</font></td>
-		<td align="center" valign=middle sdval="36.25" sdnum="1033;0;0.00"><font color="#000000">36.25</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Chinese-LLaMA-2-13B</font></b></td>
-		<td align="center" valign=middle sdval="45.38" sdnum="1033;0;0.00"><font color="#000000">45.38</font></td>
-		<td align="center" valign=middle sdval="38.25" sdnum="1033;0;0.00"><font color="#000000">38.25</font></td>
-		<td align="center" valign=middle sdval="39.88" sdnum="1033;0;0.00"><font color="#000000">39.88</font></td>
-		<td align="center" valign=middle sdval="31.87" sdnum="1033;0;0.00"><font color="#000000">31.87</font></td>
-		<td align="center" valign=middle sdval="42.12" sdnum="1033;0;0.00"><font color="#000000">42.12</font></td>
-		<td align="center" valign=middle sdval="39.5" sdnum="1033;0;0.00"><font color="#000000">39.50</font></td>
-		<td align="center" valign=middle sdval="36.5" sdnum="1033;0;0.00"><font color="#000000">36.50</font></td>
-		<td align="center" valign=middle sdval="36.5" sdnum="1033;0;0.00"><font color="#000000">36.50</font></td>
-		<td align="center" valign=middle sdval="34" sdnum="1033;0;0.00"><font color="#000000">34.00</font></td>
-		<td align="center" valign=middle sdval="34" sdnum="1033;0;0.00"><font color="#000000">34.00</font></td>
-		<td align="center" valign=middle sdval="40.5" sdnum="1033;0;0.00"><font color="#000000">40.50</font></td>
-		<td align="center" valign=middle sdval="36.3" sdnum="1033;0;0.00"><font color="#000000">36.30</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Chinese-LLaMA-2-7B</font></b></td>
-		<td align="center" valign=middle sdval="35.62" sdnum="1033;0;0.00"><font color="#000000">35.62</font></td>
-		<td align="center" valign=middle sdval="36.75" sdnum="1033;0;0.00"><font color="#000000">36.75</font></td>
-		<td align="center" valign=middle sdval="35.62" sdnum="1033;0;0.00"><font color="#000000">35.62</font></td>
-		<td align="center" valign=middle sdval="35.38" sdnum="1033;0;0.00"><font color="#000000">35.38</font></td>
-		<td align="center" valign=middle sdval="34.38" sdnum="1033;0;0.00"><font color="#000000">34.38</font></td>
-		<td align="center" valign=middle sdval="35.55" sdnum="1033;0;0.00"><font color="#000000">35.55</font></td>
-		<td align="center" valign=middle sdval="34.5" sdnum="1033;0;0.00"><font color="#000000">34.50</font></td>
-		<td align="center" valign=middle sdval="29" sdnum="1033;0;0.00"><font color="#000000">29.00</font></td>
-		<td align="center" valign=middle sdval="33" sdnum="1033;0;0.00"><font color="#000000">33.00</font></td>
-		<td align="center" valign=middle sdval="30.25" sdnum="1033;0;0.00"><font color="#000000">30.25</font></td>
-		<td align="center" valign=middle sdval="36.25" sdnum="1033;0;0.00"><font color="#000000">36.25</font></td>
-		<td align="center" valign=middle sdval="32.6" sdnum="1033;0;0.00"><font color="#000000">32.60</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Falcon-40B</font></b></td>
-		<td align="center" valign=middle sdval="39.62" sdnum="1033;0;0.00"><font color="#000000">39.62</font></td>
-		<td align="center" valign=middle sdval="32.25" sdnum="1033;0;0.00"><font color="#000000">32.25</font></td>
-		<td align="center" valign=middle sdval="32.38" sdnum="1033;0;0.00"><font color="#000000">32.38</font></td>
-		<td align="center" valign=middle sdval="30" sdnum="1033;0;0.00"><font color="#000000">30.00</font></td>
-		<td align="center" valign=middle sdval="45" sdnum="1033;0;0.00"><font color="#000000">45.00</font></td>
-		<td align="center" valign=middle sdval="35.85" sdnum="1033;0;0.00"><font color="#000000">35.85</font></td>
-		<td align="center" valign=middle sdval="28.25" sdnum="1033;0;0.00"><font color="#000000">28.25</font></td>
-		<td align="center" valign=middle sdval="33" sdnum="1033;0;0.00"><font color="#000000">33.00</font></td>
-		<td align="center" valign=middle sdval="30.25" sdnum="1033;0;0.00"><font color="#000000">30.25</font></td>
-		<td align="center" valign=middle sdval="29.25" sdnum="1033;0;0.00"><font color="#000000">29.25</font></td>
-		<td align="center" valign=middle sdval="38.5" sdnum="1033;0;0.00"><font color="#000000">38.50</font></td>
-		<td align="center" valign=middle sdval="31.85" sdnum="1033;0;0.00"><font color="#000000">31.85</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Mistral-7B</font></b></td>
-		<td align="center" valign=middle sdval="36.12" sdnum="1033;0;0.00"><font color="#000000">36.12</font></td>
-		<td align="center" valign=middle sdval="33.5" sdnum="1033;0;0.00"><font color="#000000">33.50</font></td>
-		<td align="center" valign=middle sdval="32" sdnum="1033;0;0.00"><font color="#000000">32.00</font></td>
-		<td align="center" valign=middle sdval="30.25" sdnum="1033;0;0.00"><font color="#000000">30.25</font></td>
-		<td align="center" valign=middle sdval="35" sdnum="1033;0;0.00"><font color="#000000">35.00</font></td>
-		<td align="center" valign=middle sdval="33.38" sdnum="1033;0;0.00"><font color="#000000">33.38</font></td>
-		<td align="center" valign=middle sdval="32.5" sdnum="1033;0;0.00"><font color="#000000">32.50</font></td>
-		<td align="center" valign=middle sdval="37.5" sdnum="1033;0;0.00"><font color="#000000">37.50</font></td>
-		<td align="center" valign=middle sdval="26.25" sdnum="1033;0;0.00"><font color="#000000">26.25</font></td>
-		<td align="center" valign=middle sdval="33.25" sdnum="1033;0;0.00"><font color="#000000">33.25</font></td>
-		<td align="center" valign=middle sdval="31.5" sdnum="1033;0;0.00"><font color="#000000">31.50</font></td>
-		<td align="center" valign=middle sdval="32.2" sdnum="1033;0;0.00"><font color="#000000">32.20</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-2-7B</font></b></td>
-		<td align="center" valign=middle sdval="37" sdnum="1033;0;0.00"><font color="#000000">37.00</font></td>
-		<td align="center" valign=middle sdval="29.88" sdnum="1033;0;0.00"><font color="#000000">29.88</font></td>
-		<td align="center" valign=middle sdval="28.75" sdnum="1033;0;0.00"><font color="#000000">28.75</font></td>
-		<td align="center" valign=middle sdval="34.5" sdnum="1033;0;0.00"><font color="#000000">34.50</font></td>
-		<td align="center" valign=middle sdval="38.25" sdnum="1033;0;0.00"><font color="#000000">38.25</font></td>
-		<td align="center" valign=middle sdval="33.67" sdnum="1033;0;0.00"><font color="#000000">33.67</font></td>
-		<td align="center" valign=middle sdval="25.75" sdnum="1033;0;0.00"><font color="#000000">25.75</font></td>
-		<td align="center" valign=middle sdval="28" sdnum="1033;0;0.00"><font color="#000000">28.00</font></td>
-		<td align="center" valign=middle sdval="33.75" sdnum="1033;0;0.00"><font color="#000000">33.75</font></td>
-		<td align="center" valign=middle sdval="29.75" sdnum="1033;0;0.00"><font color="#000000">29.75</font></td>
-		<td align="center" valign=middle sdval="34.5" sdnum="1033;0;0.00"><font color="#000000">34.50</font></td>
-		<td align="center" valign=middle sdval="30.35" sdnum="1033;0;0.00"><font color="#000000">30.35</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-65B</font></b></td>
-		<td align="center" valign=middle sdval="32.12" sdnum="1033;0;0.00"><font color="#000000">32.12</font></td>
-		<td align="center" valign=middle sdval="31.87" sdnum="1033;0;0.00"><font color="#000000">31.87</font></td>
-		<td align="center" valign=middle sdval="32.75" sdnum="1033;0;0.00"><font color="#000000">32.75</font></td>
-		<td align="center" valign=middle sdval="31" sdnum="1033;0;0.00"><font color="#000000">31.00</font></td>
-		<td align="center" valign=middle sdval="34.88" sdnum="1033;0;0.00"><font color="#000000">34.88</font></td>
-		<td align="center" valign=middle sdval="32.52" sdnum="1033;0;0.00"><font color="#000000">32.52</font></td>
-		<td align="center" valign=middle sdval="30" sdnum="1033;0;0.00"><font color="#000000">30.00</font></td>
-		<td align="center" valign=middle sdval="32.25" sdnum="1033;0;0.00"><font color="#000000">32.25</font></td>
-		<td align="center" valign=middle sdval="29" sdnum="1033;0;0.00"><font color="#000000">29.00</font></td>
-		<td align="center" valign=middle sdval="35.5" sdnum="1033;0;0.00"><font color="#000000">35.50</font></td>
-		<td align="center" valign=middle sdval="29" sdnum="1033;0;0.00"><font color="#000000">29.00</font></td>
-		<td align="center" valign=middle sdval="31.15" sdnum="1033;0;0.00"><font color="#000000">31.15</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-2-13B</font></b></td>
-		<td align="center" valign=middle sdval="36.5" sdnum="1033;0;0.00"><font color="#000000">36.50</font></td>
-		<td align="center" valign=middle sdval="34" sdnum="1033;0;0.00"><font color="#000000">34.00</font></td>
-		<td align="center" valign=middle sdval="33" sdnum="1033;0;0.00"><font color="#000000">33.00</font></td>
-		<td align="center" valign=middle sdval="31.87" sdnum="1033;0;0.00"><font color="#000000">31.87</font></td>
-		<td align="center" valign=middle sdval="31.75" sdnum="1033;0;0.00"><font color="#000000">31.75</font></td>
-		<td align="center" valign=middle sdval="33.42" sdnum="1033;0;0.00"><font color="#000000">33.42</font></td>
-		<td align="center" valign=middle sdval="28.75" sdnum="1033;0;0.00"><font color="#000000">28.75</font></td>
-		<td align="center" valign=middle sdval="30.5" sdnum="1033;0;0.00"><font color="#000000">30.50</font></td>
-		<td align="center" valign=middle sdval="25.25" sdnum="1033;0;0.00"><font color="#000000">25.25</font></td>
-		<td align="center" valign=middle sdval="29.75" sdnum="1033;0;0.00"><font color="#000000">29.75</font></td>
-		<td align="center" valign=middle sdval="28.25" sdnum="1033;0;0.00"><font color="#000000">28.25</font></td>
-		<td align="center" valign=middle sdval="28.5" sdnum="1033;0;0.00"><font color="#000000">28.50</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-30B</font></b></td>
-		<td align="center" valign=middle sdval="24.88" sdnum="1033;0;0.00"><font color="#000000">24.88</font></td>
-		<td align="center" valign=middle sdval="31.13" sdnum="1033;0;0.00"><font color="#000000">31.13</font></td>
-		<td align="center" valign=middle sdval="30.25" sdnum="1033;0;0.00"><font color="#000000">30.25</font></td>
-		<td align="center" valign=middle sdval="27.75" sdnum="1033;0;0.00"><font color="#000000">27.75</font></td>
-		<td align="center" valign=middle sdval="28.62" sdnum="1033;0;0.00"><font color="#000000">28.62</font></td>
-		<td align="center" valign=middle sdval="28.52" sdnum="1033;0;0.00"><font color="#000000">28.52</font></td>
-		<td align="center" valign=middle sdval="30" sdnum="1033;0;0.00"><font color="#000000">30.00</font></td>
-		<td align="center" valign=middle sdval="28.75" sdnum="1033;0;0.00"><font color="#000000">28.75</font></td>
-		<td align="center" valign=middle sdval="26" sdnum="1033;0;0.00"><font color="#000000">26.00</font></td>
-		<td align="center" valign=middle sdval="31.75" sdnum="1033;0;0.00"><font color="#000000">31.75</font></td>
-		<td align="center" valign=middle sdval="28" sdnum="1033;0;0.00"><font color="#000000">28.00</font></td>
-		<td align="center" valign=middle sdval="28.9" sdnum="1033;0;0.00"><font color="#000000">28.90</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-13B</font></b></td>
-		<td align="center" valign=middle sdval="28.5" sdnum="1033;0;0.00"><font color="#000000">28.50</font></td>
-		<td align="center" valign=middle sdval="28.5" sdnum="1033;0;0.00"><font color="#000000">28.50</font></td>
-		<td align="center" valign=middle sdval="28.25" sdnum="1033;0;0.00"><font color="#000000">28.25</font></td>
-		<td align="center" valign=middle sdval="26.5" sdnum="1033;0;0.00"><font color="#000000">26.50</font></td>
-		<td align="center" valign=middle sdval="27.75" sdnum="1033;0;0.00"><font color="#000000">27.75</font></td>
-		<td align="center" valign=middle sdval="27.9" sdnum="1033;0;0.00"><font color="#000000">27.90</font></td>
-		<td align="center" valign=middle sdval="27.25" sdnum="1033;0;0.00"><font color="#000000">27.25</font></td>
-		<td align="center" valign=middle sdval="29.75" sdnum="1033;0;0.00"><font color="#000000">29.75</font></td>
-		<td align="center" valign=middle sdval="27.25" sdnum="1033;0;0.00"><font color="#000000">27.25</font></td>
-		<td align="center" valign=middle sdval="26" sdnum="1033;0;0.00"><font color="#000000">26.00</font></td>
-		<td align="center" valign=middle sdval="29" sdnum="1033;0;0.00"><font color="#000000">29.00</font></td>
-		<td align="center" valign=middle sdval="27.85" sdnum="1033;0;0.00"><font color="#000000">27.85</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Falcon-7B</font></b></td>
-		<td align="center" valign=middle sdval="23.88" sdnum="1033;0;0.00"><font color="#000000">23.88</font></td>
-		<td align="center" valign=middle sdval="28.12" sdnum="1033;0;0.00"><font color="#000000">28.12</font></td>
-		<td align="center" valign=middle sdval="24.5" sdnum="1033;0;0.00"><font color="#000000">24.50</font></td>
-		<td align="center" valign=middle sdval="28" sdnum="1033;0;0.00"><font color="#000000">28.00</font></td>
-		<td align="center" valign=middle sdval="28.12" sdnum="1033;0;0.00"><font color="#000000">28.12</font></td>
-		<td align="center" valign=middle sdval="26.52" sdnum="1033;0;0.00"><font color="#000000">26.52</font></td>
-		<td align="center" valign=middle sdval="24.75" sdnum="1033;0;0.00"><font color="#000000">24.75</font></td>
-		<td align="center" valign=middle sdval="30.5" sdnum="1033;0;0.00"><font color="#000000">30.50</font></td>
-		<td align="center" valign=middle sdval="31.5" sdnum="1033;0;0.00"><font color="#000000">31.50</font></td>
-		<td align="center" valign=middle sdval="29.75" sdnum="1033;0;0.00"><font color="#000000">29.75</font></td>
-		<td align="center" valign=middle sdval="25.25" sdnum="1033;0;0.00"><font color="#000000">25.25</font></td>
-		<td align="center" valign=middle sdval="28.35" sdnum="1033;0;0.00"><font color="#000000">28.35</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-7B</font></b></td>
-		<td align="center" valign=middle sdval="25.5" sdnum="1033;0;0.00"><font color="#000000">25.50</font></td>
-		<td align="center" valign=middle sdval="31.87" sdnum="1033;0;0.00"><font color="#000000">31.87</font></td>
-		<td align="center" valign=middle sdval="25.87" sdnum="1033;0;0.00"><font color="#000000">25.87</font></td>
-		<td align="center" valign=middle sdval="26" sdnum="1033;0;0.00"><font color="#000000">26.00</font></td>
-		<td align="center" valign=middle sdval="28.88" sdnum="1033;0;0.00"><font color="#000000">28.88</font></td>
-		<td align="center" valign=middle sdval="27.62" sdnum="1033;0;0.00"><font color="#000000">27.62</font></td>
-		<td align="center" valign=middle sdval="28.5" sdnum="1033;0;0.00"><font color="#000000">28.50</font></td>
-		<td align="center" valign=middle sdval="24.75" sdnum="1033;0;0.00"><font color="#000000">24.75</font></td>
-		<td align="center" valign=middle sdval="20.5" sdnum="1033;0;0.00"><font color="#000000">20.50</font></td>
-		<td align="center" valign=middle sdval="27.75" sdnum="1033;0;0.00"><font color="#000000">27.75</font></td>
-		<td align="center" valign=middle sdval="29" sdnum="1033;0;0.00"><font color="#000000">29.00</font></td>
-		<td align="center" valign=middle sdval="26.1" sdnum="1033;0;0.00"><font color="#000000">26.10</font></td>
-	</tr>
-</table>
+#### RoleEval-Chinese (2,000 questions)
+
+| **Model**                      | **Celebrities** | **Anime and Comics** | **Movies and TV Series** | **Games** | **Fiction** | **Avg.** |
+|:--------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:----------:|
+| **Qwen-72B**                   | **70.00**  | 59.75  | 66.00  | 61.25  | 74.00  | **66.20**    |
+| **Baichuan2-Character-Turbo*** | 66.25  | 61.00  | **71.50**  | 54.25  | 76.25  | 65.85    |
+| **Yi-34B**                     | 65.50  | 54.50  | 70.00  | 56.00  | **77.00**  | 64.60    |
+| **GPT-4-1106**                 | 62.50  | **63.25**  | 63.00  | **62.00**  | 63.00  | 62.75    |
+| **GPT-4-0613**                 | 57.75  | 60.25  | 57.75  | 60.00  | 58.00  | 58.75    |
+| **Yi-6B**                      | 59.25  | 46.00  | 61.50  | 47.75  | 62.00  | 55.30    |
+| **Baichuan2-Character-Lite***  | 56.00  | 51.75  | 56.75  | 47.50  | 62.00  | 54.80    |
+| **MiniMax**                    | 54.00  | 55.00  | 52.75  | 57.50  | 54.00  | 54.65    |
+| **Qwen-14B**                   | 56.25  | 45.50  | 54.75  | 51.50  | 56.75  | 52.95    |
+| **Baichuan2-13B**              | 54.75  | 47.75  | 54.00  | 47.50  | 60.00  | 52.80    |
+| **Skywork-13B**                | 55.25  | 45.75  | 56.00  | 48.50  | 57.50  | 52.60    |
+| **Baichuan2-7B**               | 52.25  | 43.75  | 49.00  | 47.25  | 55.00  | 49.45    |
+| **ChatGLM3-6B**                | 50.00  | 44.50  | 48.00  | 44.25  | 58.00  | 48.95    |
+| **Qwen-7B**                    | 49.00  | 42.00  | 47.50  | 44.75  | 51.25  | 46.90    |
+| **GPT-3.5-1106**               | 47.50  | 46.75  | 41.75  | 44.75  | 38.75  | 43.90    |
+| **GPT-3.5-0613**               | 42.25  | 43.50  | 39.75  | 43.75  | 39.00  | 41.65    |
+| **Chinese-LLaMA-2-13B**        | 36.50  | 36.50  | 34.00  | 34.00  | 40.50  | 36.30    |
+| **LLaMA-2-70B**                | 36.00  | 38.00  | 36.25  | 36.25  | 34.75  | 36.25    |
+| **Chinese-LLaMA-2-7B**         | 34.50  | 29.00  | 33.00  | 30.25  | 36.25  | 32.60    |
+| **Mistral-7B**                 | 32.50  | 37.50  | 26.25  | 33.25  | 31.50  | 32.20    |
+| **Falcon-40B**                 | 28.25  | 33.00  | 30.25  | 29.25  | 38.50  | 31.85    |
+| **LLaMA-65B**                  | 30.00  | 32.25  | 29.00  | 35.50  | 29.00  | 31.15    |
+| **LLaMA-2-7B**                 | 25.75  | 28.00  | 33.75  | 29.75  | 34.50  | 30.35    |
+| **LLaMA-30B**                  | 30.00  | 28.75  | 26.00  | 31.75  | 28.00  | 28.90    |
+| **LLaMA-2-13B**                | 28.75  | 30.50  | 25.25  | 29.75  | 28.25  | 28.50    |
+| **Falcon-7B**                  | 24.75  | 30.50  | 31.50  | 29.75  | 25.25  | 28.35    |
+| **LLaMA-13B**                  | 27.25  | 29.75  | 27.25  | 26.00  | 29.00  | 27.85    |
+| **LLaMA-7B**                   | 28.50  | 24.75  | 20.50  | 27.75  | 29.00  | 26.10    |
+
+
+#### RoleEval-Global (4,000 questions)
+
+| **Model**                      | **Celebrities** | **Anime and Comics** | **Movies and TV Series** | **Games** | **Fiction** | **Avg.** |
+|:--------------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:----------:|
+| **GPT-4-1106**                 | **74.75**  | **73.62**  | **74.38**  | **72.50**  | 71.62  | **73.38**    |
+| **GPT-4-0613**                 | 73.38  | 72.12  | 74.25  | 72.25  | 69.62  | 72.32    |
+| **Qwen-72B**                   | 72.88  | 63.88  | 70.38  | 56.75  | **73.50**  | 67.47    |
+| **Baichuan2-Character-Turbo*** | 72.25  | 65.25  | 64.62  | 55.50  | 72.75  | 66.07    |
+| **Yi-34B**                     | 72.38  | 60.62  | 69.75  | 53.25  | 73.12  | 65.83    |
+| **Baichuan2-Character-Lite***  | 60.62  | 56.62  | 51.88  | 48.25  | 62.12  | 55.90    |
+| **MiniMax**                    | 51.75  | 54.50  | 62.62  | 56.75  | 52.75  | 55.67    |
+| **Qwen-14B**                   | 62.50  | 52.38  | 55.00  | 45.50  | 58.00  | 54.67    |
+| **Yi-6B**                      | 61.88  | 51.38  | 52.38  | 45.38  | 60.75  | 54.35    |
+| **Baichuan2-13B**              | 60.25  | 52.38  | 51.00  | 46.88  | 60.75  | 54.25    |
+| **Skywork-13B**                | 59.13  | 51.75  | 51.88  | 44.50  | 58.75  | 53.20    |
+| **GPT-3.5-1106**               | 48.75  | 51.88  | 51.25  | 49.88  | 48.38  | 50.02    |
+| **ChatGLM3-6B**                | 56.50  | 47.62  | 48.38  | 41.88  | 54.50  | 49.78    |
+| **Baichuan2-7B**               | 56.00  | 49.62  | 45.50  | 40.50  | 52.38  | 48.80    |
+| **GPT-3.5-0613**               | 46.62  | 48.38  | 51.75  | 49.50  | 47.38  | 48.73    |
+| **Qwen-7B**                    | 54.75  | 44.38  | 44.62  | 42.75  | 53.00  | 47.90    |
+| **LLaMA-2-70B**                | 53.50  | 43.25  | 39.25  | 40.25  | 47.25  | 44.70    |
+| **Chinese-LLaMA-2-13B**        | 45.38  | 38.25  | 39.88  | 31.87  | 42.12  | 39.50    |
+| **Falcon-40B**                 | 39.62  | 32.25  | 32.38  | 30.00  | 45.00  | 35.85    |
+| **Chinese-LLaMA-2-7B**         | 35.62  | 36.75  | 35.62  | 35.38  | 34.38  | 35.55    |
+| **LLaMA-2-7B**                 | 37.00  | 29.88  | 28.75  | 34.50  | 38.25  | 33.67    |
+| **LLaMA-2-13B**                | 36.50  | 34.00  | 33.00  | 31.87  | 31.75  | 33.42    |
+| **Mistral-7B**                 | 36.12  | 33.50  | 32.00  | 30.25  | 35.00  | 33.38    |
+| **LLaMA-65B**                  | 32.12  | 31.87  | 32.75  | 31.00  | 34.88  | 32.52    |
+| **LLaMA-30B**                  | 24.88  | 31.13  | 30.25  | 27.75  | 28.62  | 28.52    |
+| **LLaMA-13B**                  | 28.50  | 28.50  | 28.25  | 26.50  | 27.75  | 27.90    |
+| **LLaMA-7B**                   | 25.50  | 31.87  | 25.87  | 26.00  | 28.88  | 27.62    |
+| **Falcon-7B**                  | 23.88  | 28.12  | 24.50  | 28.00  | 28.12  | 26.52    |
+
 
 ### RoleEval (en)
 
-<table cellspacing="0" border="0">
-	<colgroup width="211"></colgroup>
-	<colgroup span="2" width="50"></colgroup>
-	<colgroup width="51"></colgroup>
-	<colgroup span="5" width="50"></colgroup>
-	<colgroup width="51"></colgroup>
-	<colgroup span="2" width="50"></colgroup>
-	<colgroup width="54"></colgroup>
-	<tr>
-		<td rowspan=2 height="43" align="center" valign=middle><b><font color="#000000">Model</font></b></td>
-		<td colspan=6 align="center" valign=middle><b><font color="#000000">RoleEval-Global (4,000 questions)</font></b></td>
-		<td colspan=6 align="center" valign=middle><b><font color="#000000">RoleEval-Chinese (2,000 questions)</font></b></td>
-		</tr>
-	<tr>
-		<td align="center" valign=middle><b><font color="#000000">Celebrities</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Anime and Comics</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Movies and TV Series</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Games</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Fiction</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Avg.</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Celebrities</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Anime and Comics</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Movies and TV Series</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Games</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Fiction</font></b></td>
-		<td align="center" valign=middle><b><font color="#000000">Avg.</font></b></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">GPT-4-0613</font></b></td>
-		<td align="center" valign=middle sdval="77.62" sdnum="1033;0;0.00"><b><font color="#000000">77.62</font></b></td>
-		<td align="center" valign=middle sdval="79.5" sdnum="1033;0;0.00"><b><font color="#000000">79.50</font></b></td>
-		<td align="center" valign=middle sdval="73.12" sdnum="1033;0;0.00"><font color="#000000">73.12</font></td>
-		<td align="center" valign=middle sdval="74.88" sdnum="1033;0;0.00"><font color="#000000">74.88</font></td>
-		<td align="center" valign=middle sdval="75" sdnum="1033;0;0.00"><b><font color="#000000">75.00</font></b></td>
-		<td align="center" valign=middle sdval="76.02" sdnum="1033;0;0.00"><b><font color="#000000">76.02</font></b></td>
-		<td align="center" valign=middle sdval="54.25" sdnum="1033;0;0.00"><font color="#000000">54.25</font></td>
-		<td align="center" valign=middle sdval="61.75" sdnum="1033;0;0.00"><font color="#000000">61.75</font></td>
-		<td align="center" valign=middle sdval="63" sdnum="1033;0;0.00"><b><font color="#000000">63.00</font></b></td>
-		<td align="center" valign=middle sdval="63" sdnum="1033;0;0.00"><b><font color="#000000">63.00</font></b></td>
-		<td align="center" valign=middle sdval="63" sdnum="1033;0;0.00"><b><font color="#000000">63.00</font></b></td>
-		<td align="center" valign=middle sdval="61" sdnum="1033;0;0.00"><b><font color="#000000">61.00</font></b></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">GPT-4-1106</font></b></td>
-		<td align="center" valign=middle sdval="75.12" sdnum="1033;0;0.00"><font color="#000000">75.12</font></td>
-		<td align="center" valign=middle sdval="78.75" sdnum="1033;0;0.00"><font color="#000000">78.75</font></td>
-		<td align="center" valign=middle sdval="75" sdnum="1033;0;0.00"><b><font color="#000000">75.00</font></b></td>
-		<td align="center" valign=middle sdval="76.12" sdnum="1033;0;0.00"><b><font color="#000000">76.12</font></b></td>
-		<td align="center" valign=middle sdval="75" sdnum="1033;0;0.00"><b><font color="#000000">75.00</font></b></td>
-		<td align="center" valign=middle sdval="76" sdnum="1033;0;0.00"><font color="#000000">76.00</font></td>
-		<td align="center" valign=middle sdval="57.5" sdnum="1033;0;0.00"><b><font color="#000000">57.50</font></b></td>
-		<td align="center" valign=middle sdval="63.5" sdnum="1033;0;0.00"><b><font color="#000000">63.50</font></b></td>
-		<td align="center" valign=middle sdval="60" sdnum="1033;0;0.00"><font color="#000000">60.00</font></td>
-		<td align="center" valign=middle sdval="62.5" sdnum="1033;0;0.00"><font color="#000000">62.50</font></td>
-		<td align="center" valign=middle sdval="58" sdnum="1033;0;0.00"><font color="#000000">58.00</font></td>
-		<td align="center" valign=middle sdval="60.3" sdnum="1033;0;0.00"><font color="#000000">60.30</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Yi-34B</font></b></td>
-		<td align="center" valign=middle sdval="73.12" sdnum="1033;0;0.00"><font color="#000000">73.12</font></td>
-		<td align="center" valign=middle sdval="61.75" sdnum="1033;0;0.00"><font color="#000000">61.75</font></td>
-		<td align="center" valign=middle sdval="67.88" sdnum="1033;0;0.00"><font color="#000000">67.88</font></td>
-		<td align="center" valign=middle sdval="57.12" sdnum="1033;0;0.00"><font color="#000000">57.12</font></td>
-		<td align="center" valign=middle sdval="67.25" sdnum="1033;0;0.00"><font color="#000000">67.25</font></td>
-		<td align="center" valign=middle sdval="65.42" sdnum="1033;0;0.00"><font color="#000000">65.42</font></td>
-		<td align="center" valign=middle sdval="56" sdnum="1033;0;0.00"><font color="#000000">56.00</font></td>
-		<td align="center" valign=middle sdval="52" sdnum="1033;0;0.00"><font color="#000000">52.00</font></td>
-		<td align="center" valign=middle sdval="47.5" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
-		<td align="center" valign=middle sdval="55" sdnum="1033;0;0.00"><font color="#000000">55.00</font></td>
-		<td align="center" valign=middle sdval="57" sdnum="1033;0;0.00"><font color="#000000">57.00</font></td>
-		<td align="center" valign=middle sdval="53.5" sdnum="1033;0;0.00"><font color="#000000">53.50</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Qwen-72B</font></b></td>
-		<td align="center" valign=middle sdval="70.12" sdnum="1033;0;0.00"><font color="#000000">70.12</font></td>
-		<td align="center" valign=middle sdval="62" sdnum="1033;0;0.00"><font color="#000000">62.00</font></td>
-		<td align="center" valign=middle sdval="69" sdnum="1033;0;0.00"><font color="#000000">69.00</font></td>
-		<td align="center" valign=middle sdval="55.75" sdnum="1033;0;0.00"><font color="#000000">55.75</font></td>
-		<td align="center" valign=middle sdval="69.5" sdnum="1033;0;0.00"><font color="#000000">69.50</font></td>
-		<td align="center" valign=middle sdval="65.27" sdnum="1033;0;0.00"><font color="#000000">65.27</font></td>
-		<td align="center" valign=middle sdval="52.75" sdnum="1033;0;0.00"><font color="#000000">52.75</font></td>
-		<td align="center" valign=middle sdval="47.5" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
-		<td align="center" valign=middle sdval="46.5" sdnum="1033;0;0.00"><font color="#000000">46.50</font></td>
-		<td align="center" valign=middle sdval="54.25" sdnum="1033;0;0.00"><font color="#000000">54.25</font></td>
-		<td align="center" valign=middle sdval="50.5" sdnum="1033;0;0.00"><font color="#000000">50.50</font></td>
-		<td align="center" valign=middle sdval="50.3" sdnum="1033;0;0.00"><font color="#000000">50.30</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">GPT-3.5-0613</font></b></td>
-		<td align="center" valign=middle sdval="57.38" sdnum="1033;0;0.00"><font color="#000000">57.38</font></td>
-		<td align="center" valign=middle sdval="59.62" sdnum="1033;0;0.00"><font color="#000000">59.62</font></td>
-		<td align="center" valign=middle sdval="58.13" sdnum="1033;0;0.00"><font color="#000000">58.13</font></td>
-		<td align="center" valign=middle sdval="59.5" sdnum="1033;0;0.00"><font color="#000000">59.50</font></td>
-		<td align="center" valign=middle sdval="57.5" sdnum="1033;0;0.00"><font color="#000000">57.50</font></td>
-		<td align="center" valign=middle sdval="58.43" sdnum="1033;0;0.00"><font color="#000000">58.43</font></td>
-		<td align="center" valign=middle sdval="42" sdnum="1033;0;0.00"><font color="#000000">42.00</font></td>
-		<td align="center" valign=middle sdval="47.75" sdnum="1033;0;0.00"><font color="#000000">47.75</font></td>
-		<td align="center" valign=middle sdval="42.5" sdnum="1033;0;0.00"><font color="#000000">42.50</font></td>
-		<td align="center" valign=middle sdval="42.25" sdnum="1033;0;0.00"><font color="#000000">42.25</font></td>
-		<td align="center" valign=middle sdval="45.5" sdnum="1033;0;0.00"><font color="#000000">45.50</font></td>
-		<td align="center" valign=middle sdval="44" sdnum="1033;0;0.00"><font color="#000000">44.00</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-2-70B</font></b></td>
-		<td align="center" valign=middle sdval="63.25" sdnum="1033;0;0.00"><font color="#000000">63.25</font></td>
-		<td align="center" valign=middle sdval="57.38" sdnum="1033;0;0.00"><font color="#000000">57.38</font></td>
-		<td align="center" valign=middle sdval="59" sdnum="1033;0;0.00"><font color="#000000">59.00</font></td>
-		<td align="center" valign=middle sdval="50" sdnum="1033;0;0.00"><font color="#000000">50.00</font></td>
-		<td align="center" valign=middle sdval="63.25" sdnum="1033;0;0.00"><font color="#000000">63.25</font></td>
-		<td align="center" valign=middle sdval="58.58" sdnum="1033;0;0.00"><font color="#000000">58.58</font></td>
-		<td align="center" valign=middle sdval="43.25" sdnum="1033;0;0.00"><font color="#000000">43.25</font></td>
-		<td align="center" valign=middle sdval="41.5" sdnum="1033;0;0.00"><font color="#000000">41.50</font></td>
-		<td align="center" valign=middle sdval="40.25" sdnum="1033;0;0.00"><font color="#000000">40.25</font></td>
-		<td align="center" valign=middle sdval="47.5" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
-		<td align="center" valign=middle sdval="43.5" sdnum="1033;0;0.00"><font color="#000000">43.50</font></td>
-		<td align="center" valign=middle sdval="43.2" sdnum="1033;0;0.00"><font color="#000000">43.20</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">GPT-3.5-1106</font></b></td>
-		<td align="center" valign=middle sdval="58.75" sdnum="1033;0;0.00"><font color="#000000">58.75</font></td>
-		<td align="center" valign=middle sdval="56.62" sdnum="1033;0;0.00"><font color="#000000">56.62</font></td>
-		<td align="center" valign=middle sdval="55.75" sdnum="1033;0;0.00"><font color="#000000">55.75</font></td>
-		<td align="center" valign=middle sdval="58" sdnum="1033;0;0.00"><font color="#000000">58.00</font></td>
-		<td align="center" valign=middle sdval="55" sdnum="1033;0;0.00"><font color="#000000">55.00</font></td>
-		<td align="center" valign=middle sdval="56.82" sdnum="1033;0;0.00"><font color="#000000">56.82</font></td>
-		<td align="center" valign=middle sdval="38.25" sdnum="1033;0;0.00"><font color="#000000">38.25</font></td>
-		<td align="center" valign=middle sdval="45.5" sdnum="1033;0;0.00"><font color="#000000">45.50</font></td>
-		<td align="center" valign=middle sdval="44" sdnum="1033;0;0.00"><font color="#000000">44.00</font></td>
-		<td align="center" valign=middle sdval="44.5" sdnum="1033;0;0.00"><font color="#000000">44.50</font></td>
-		<td align="center" valign=middle sdval="46" sdnum="1033;0;0.00"><font color="#000000">46.00</font></td>
-		<td align="center" valign=middle sdval="43.65" sdnum="1033;0;0.00"><font color="#000000">43.65</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Yi-6B</font></b></td>
-		<td align="center" valign=middle sdval="59.25" sdnum="1033;0;0.00"><font color="#000000">59.25</font></td>
-		<td align="center" valign=middle sdval="52" sdnum="1033;0;0.00"><font color="#000000">52.00</font></td>
-		<td align="center" valign=middle sdval="54.12" sdnum="1033;0;0.00"><font color="#000000">54.12</font></td>
-		<td align="center" valign=middle sdval="47.5" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
-		<td align="center" valign=middle sdval="56.25" sdnum="1033;0;0.00"><font color="#000000">56.25</font></td>
-		<td align="center" valign=middle sdval="53.82" sdnum="1033;0;0.00"><font color="#000000">53.82</font></td>
-		<td align="center" valign=middle sdval="42.25" sdnum="1033;0;0.00"><font color="#000000">42.25</font></td>
-		<td align="center" valign=middle sdval="38.5" sdnum="1033;0;0.00"><font color="#000000">38.50</font></td>
-		<td align="center" valign=middle sdval="41.5" sdnum="1033;0;0.00"><font color="#000000">41.50</font></td>
-		<td align="center" valign=middle sdval="44.25" sdnum="1033;0;0.00"><font color="#000000">44.25</font></td>
-		<td align="center" valign=middle sdval="45" sdnum="1033;0;0.00"><font color="#000000">45.00</font></td>
-		<td align="center" valign=middle sdval="42.3" sdnum="1033;0;0.00"><font color="#000000">42.30</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Qwen-14B</font></b></td>
-		<td align="center" valign=middle sdval="61.12" sdnum="1033;0;0.00"><font color="#000000">61.12</font></td>
-		<td align="center" valign=middle sdval="49" sdnum="1033;0;0.00"><font color="#000000">49.00</font></td>
-		<td align="center" valign=middle sdval="53.87" sdnum="1033;0;0.00"><font color="#000000">53.87</font></td>
-		<td align="center" valign=middle sdval="45.38" sdnum="1033;0;0.00"><font color="#000000">45.38</font></td>
-		<td align="center" valign=middle sdval="56.12" sdnum="1033;0;0.00"><font color="#000000">56.12</font></td>
-		<td align="center" valign=middle sdval="53.1" sdnum="1033;0;0.00"><font color="#000000">53.10</font></td>
-		<td align="center" valign=middle sdval="41" sdnum="1033;0;0.00"><font color="#000000">41.00</font></td>
-		<td align="center" valign=middle sdval="38.75" sdnum="1033;0;0.00"><font color="#000000">38.75</font></td>
-		<td align="center" valign=middle sdval="38.25" sdnum="1033;0;0.00"><font color="#000000">38.25</font></td>
-		<td align="center" valign=middle sdval="43.25" sdnum="1033;0;0.00"><font color="#000000">43.25</font></td>
-		<td align="center" valign=middle sdval="41" sdnum="1033;0;0.00"><font color="#000000">41.00</font></td>
-		<td align="center" valign=middle sdval="40.45" sdnum="1033;0;0.00"><font color="#000000">40.45</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">MiniMax</font></b></td>
-		<td align="center" valign=middle sdval="54.87" sdnum="1033;0;0.00"><font color="#000000">54.87</font></td>
-		<td align="center" valign=middle sdval="56.38" sdnum="1033;0;0.00"><font color="#000000">56.38</font></td>
-		<td align="center" valign=middle sdval="53.5" sdnum="1033;0;0.00"><font color="#000000">53.50</font></td>
-		<td align="center" valign=middle sdval="54.12" sdnum="1033;0;0.00"><font color="#000000">54.12</font></td>
-		<td align="center" valign=middle sdval="51.38" sdnum="1033;0;0.00"><font color="#000000">51.38</font></td>
-		<td align="center" valign=middle sdval="54.05" sdnum="1033;0;0.00"><font color="#000000">54.05</font></td>
-		<td align="center" valign=middle sdval="34" sdnum="1033;0;0.00"><font color="#000000">34.00</font></td>
-		<td align="center" valign=middle sdval="39.5" sdnum="1033;0;0.00"><font color="#000000">39.50</font></td>
-		<td align="center" valign=middle sdval="40.75" sdnum="1033;0;0.00"><font color="#000000">40.75</font></td>
-		<td align="center" valign=middle sdval="38.25" sdnum="1033;0;0.00"><font color="#000000">38.25</font></td>
-		<td align="center" valign=middle sdval="39" sdnum="1033;0;0.00"><font color="#000000">39.00</font></td>
-		<td align="center" valign=middle sdval="38.3" sdnum="1033;0;0.00"><font color="#000000">38.30</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-65B</font></b></td>
-		<td align="center" valign=middle sdval="58.13" sdnum="1033;0;0.00"><font color="#000000">58.13</font></td>
-		<td align="center" valign=middle sdval="50.5" sdnum="1033;0;0.00"><font color="#000000">50.50</font></td>
-		<td align="center" valign=middle sdval="54.37" sdnum="1033;0;0.00"><font color="#000000">54.37</font></td>
-		<td align="center" valign=middle sdval="47.62" sdnum="1033;0;0.00"><font color="#000000">47.62</font></td>
-		<td align="center" valign=middle sdval="54.5" sdnum="1033;0;0.00"><font color="#000000">54.50</font></td>
-		<td align="center" valign=middle sdval="53.02" sdnum="1033;0;0.00"><font color="#000000">53.02</font></td>
-		<td align="center" valign=middle sdval="41.5" sdnum="1033;0;0.00"><font color="#000000">41.50</font></td>
-		<td align="center" valign=middle sdval="38.5" sdnum="1033;0;0.00"><font color="#000000">38.50</font></td>
-		<td align="center" valign=middle sdval="33.5" sdnum="1033;0;0.00"><font color="#000000">33.50</font></td>
-		<td align="center" valign=middle sdval="43.25" sdnum="1033;0;0.00"><font color="#000000">43.25</font></td>
-		<td align="center" valign=middle sdval="37.5" sdnum="1033;0;0.00"><font color="#000000">37.50</font></td>
-		<td align="center" valign=middle sdval="38.85" sdnum="1033;0;0.00"><font color="#000000">38.85</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Skywork-13B</font></b></td>
-		<td align="center" valign=middle sdval="56.25" sdnum="1033;0;0.00"><font color="#000000">56.25</font></td>
-		<td align="center" valign=middle sdval="46.75" sdnum="1033;0;0.00"><font color="#000000">46.75</font></td>
-		<td align="center" valign=middle sdval="51.62" sdnum="1033;0;0.00"><font color="#000000">51.62</font></td>
-		<td align="center" valign=middle sdval="44.38" sdnum="1033;0;0.00"><font color="#000000">44.38</font></td>
-		<td align="center" valign=middle sdval="53.62" sdnum="1033;0;0.00"><font color="#000000">53.62</font></td>
-		<td align="center" valign=middle sdval="50.52" sdnum="1033;0;0.00"><font color="#000000">50.52</font></td>
-		<td align="center" valign=middle sdval="39.25" sdnum="1033;0;0.00"><font color="#000000">39.25</font></td>
-		<td align="center" valign=middle sdval="34.5" sdnum="1033;0;0.00"><font color="#000000">34.50</font></td>
-		<td align="center" valign=middle sdval="38.25" sdnum="1033;0;0.00"><font color="#000000">38.25</font></td>
-		<td align="center" valign=middle sdval="41.75" sdnum="1033;0;0.00"><font color="#000000">41.75</font></td>
-		<td align="center" valign=middle sdval="38.5" sdnum="1033;0;0.00"><font color="#000000">38.50</font></td>
-		<td align="center" valign=middle sdval="38.45" sdnum="1033;0;0.00"><font color="#000000">38.45</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Baichuan2-13B</font></b></td>
-		<td align="center" valign=middle sdval="56.12" sdnum="1033;0;0.00"><font color="#000000">56.12</font></td>
-		<td align="center" valign=middle sdval="47.5" sdnum="1033;0;0.00"><font color="#000000">47.50</font></td>
-		<td align="center" valign=middle sdval="51.5" sdnum="1033;0;0.00"><font color="#000000">51.50</font></td>
-		<td align="center" valign=middle sdval="45.62" sdnum="1033;0;0.00"><font color="#000000">45.62</font></td>
-		<td align="center" valign=middle sdval="54" sdnum="1033;0;0.00"><font color="#000000">54.00</font></td>
-		<td align="center" valign=middle sdval="50.95" sdnum="1033;0;0.00"><font color="#000000">50.95</font></td>
-		<td align="center" valign=middle sdval="35.5" sdnum="1033;0;0.00"><font color="#000000">35.50</font></td>
-		<td align="center" valign=middle sdval="36.5" sdnum="1033;0;0.00"><font color="#000000">36.50</font></td>
-		<td align="center" valign=middle sdval="31.25" sdnum="1033;0;0.00"><font color="#000000">31.25</font></td>
-		<td align="center" valign=middle sdval="42.25" sdnum="1033;0;0.00"><font color="#000000">42.25</font></td>
-		<td align="center" valign=middle sdval="34.75" sdnum="1033;0;0.00"><font color="#000000">34.75</font></td>
-		<td align="center" valign=middle sdval="36.05" sdnum="1033;0;0.00"><font color="#000000">36.05</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">ChatGLM3-6B</font></b></td>
-		<td align="center" valign=middle sdval="55.12" sdnum="1033;0;0.00"><font color="#000000">55.12</font></td>
-		<td align="center" valign=middle sdval="46.62" sdnum="1033;0;0.00"><font color="#000000">46.62</font></td>
-		<td align="center" valign=middle sdval="49.25" sdnum="1033;0;0.00"><font color="#000000">49.25</font></td>
-		<td align="center" valign=middle sdval="43.25" sdnum="1033;0;0.00"><font color="#000000">43.25</font></td>
-		<td align="center" valign=middle sdval="52.62" sdnum="1033;0;0.00"><font color="#000000">52.62</font></td>
-		<td align="center" valign=middle sdval="49.37" sdnum="1033;0;0.00"><font color="#000000">49.37</font></td>
-		<td align="center" valign=middle sdval="36.25" sdnum="1033;0;0.00"><font color="#000000">36.25</font></td>
-		<td align="center" valign=middle sdval="36.25" sdnum="1033;0;0.00"><font color="#000000">36.25</font></td>
-		<td align="center" valign=middle sdval="35.25" sdnum="1033;0;0.00"><font color="#000000">35.25</font></td>
-		<td align="center" valign=middle sdval="42.25" sdnum="1033;0;0.00"><font color="#000000">42.25</font></td>
-		<td align="center" valign=middle sdval="43.5" sdnum="1033;0;0.00"><font color="#000000">43.50</font></td>
-		<td align="center" valign=middle sdval="38.7" sdnum="1033;0;0.00"><font color="#000000">38.70</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Mistral-7B</font></b></td>
-		<td align="center" valign=middle sdval="54.87" sdnum="1033;0;0.00"><font color="#000000">54.87</font></td>
-		<td align="center" valign=middle sdval="46.75" sdnum="1033;0;0.00"><font color="#000000">46.75</font></td>
-		<td align="center" valign=middle sdval="49.62" sdnum="1033;0;0.00"><font color="#000000">49.62</font></td>
-		<td align="center" valign=middle sdval="44.25" sdnum="1033;0;0.00"><font color="#000000">44.25</font></td>
-		<td align="center" valign=middle sdval="52.25" sdnum="1033;0;0.00"><font color="#000000">52.25</font></td>
-		<td align="center" valign=middle sdval="49.55" sdnum="1033;0;0.00"><font color="#000000">49.55</font></td>
-		<td align="center" valign=middle sdval="35.75" sdnum="1033;0;0.00"><font color="#000000">35.75</font></td>
-		<td align="center" valign=middle sdval="42" sdnum="1033;0;0.00"><font color="#000000">42.00</font></td>
-		<td align="center" valign=middle sdval="30" sdnum="1033;0;0.00"><font color="#000000">30.00</font></td>
-		<td align="center" valign=middle sdval="41.75" sdnum="1033;0;0.00"><font color="#000000">41.75</font></td>
-		<td align="center" valign=middle sdval="31.5" sdnum="1033;0;0.00"><font color="#000000">31.50</font></td>
-		<td align="center" valign=middle sdval="36.2" sdnum="1033;0;0.00"><font color="#000000">36.20</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Qwen-7B</font></b></td>
-		<td align="center" valign=middle sdval="53.87" sdnum="1033;0;0.00"><font color="#000000">53.87</font></td>
-		<td align="center" valign=middle sdval="46.12" sdnum="1033;0;0.00"><font color="#000000">46.12</font></td>
-		<td align="center" valign=middle sdval="48.12" sdnum="1033;0;0.00"><font color="#000000">48.12</font></td>
-		<td align="center" valign=middle sdval="40" sdnum="1033;0;0.00"><font color="#000000">40.00</font></td>
-		<td align="center" valign=middle sdval="51.12" sdnum="1033;0;0.00"><font color="#000000">51.12</font></td>
-		<td align="center" valign=middle sdval="47.85" sdnum="1033;0;0.00"><font color="#000000">47.85</font></td>
-		<td align="center" valign=middle sdval="36.25" sdnum="1033;0;0.00"><font color="#000000">36.25</font></td>
-		<td align="center" valign=middle sdval="36" sdnum="1033;0;0.00"><font color="#000000">36.00</font></td>
-		<td align="center" valign=middle sdval="36.25" sdnum="1033;0;0.00"><font color="#000000">36.25</font></td>
-		<td align="center" valign=middle sdval="42.25" sdnum="1033;0;0.00"><font color="#000000">42.25</font></td>
-		<td align="center" valign=middle sdval="40" sdnum="1033;0;0.00"><font color="#000000">40.00</font></td>
-		<td align="center" valign=middle sdval="38.15" sdnum="1033;0;0.00"><font color="#000000">38.15</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-30B</font></b></td>
-		<td align="center" valign=middle sdval="51.62" sdnum="1033;0;0.00"><font color="#000000">51.62</font></td>
-		<td align="center" valign=middle sdval="46.88" sdnum="1033;0;0.00"><font color="#000000">46.88</font></td>
-		<td align="center" valign=middle sdval="48.62" sdnum="1033;0;0.00"><font color="#000000">48.62</font></td>
-		<td align="center" valign=middle sdval="43.12" sdnum="1033;0;0.00"><font color="#000000">43.12</font></td>
-		<td align="center" valign=middle sdval="52.62" sdnum="1033;0;0.00"><font color="#000000">52.62</font></td>
-		<td align="center" valign=middle sdval="48.57" sdnum="1033;0;0.00"><font color="#000000">48.57</font></td>
-		<td align="center" valign=middle sdval="34.75" sdnum="1033;0;0.00"><font color="#000000">34.75</font></td>
-		<td align="center" valign=middle sdval="35.75" sdnum="1033;0;0.00"><font color="#000000">35.75</font></td>
-		<td align="center" valign=middle sdval="30.75" sdnum="1033;0;0.00"><font color="#000000">30.75</font></td>
-		<td align="center" valign=middle sdval="40" sdnum="1033;0;0.00"><font color="#000000">40.00</font></td>
-		<td align="center" valign=middle sdval="35" sdnum="1033;0;0.00"><font color="#000000">35.00</font></td>
-		<td align="center" valign=middle sdval="35.25" sdnum="1033;0;0.00"><font color="#000000">35.25</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Baichuan2-7B</font></b></td>
-		<td align="center" valign=middle sdval="51" sdnum="1033;0;0.00"><font color="#000000">51.00</font></td>
-		<td align="center" valign=middle sdval="45.12" sdnum="1033;0;0.00"><font color="#000000">45.12</font></td>
-		<td align="center" valign=middle sdval="49" sdnum="1033;0;0.00"><font color="#000000">49.00</font></td>
-		<td align="center" valign=middle sdval="42.12" sdnum="1033;0;0.00"><font color="#000000">42.12</font></td>
-		<td align="center" valign=middle sdval="50" sdnum="1033;0;0.00"><font color="#000000">50.00</font></td>
-		<td align="center" valign=middle sdval="47.45" sdnum="1033;0;0.00"><font color="#000000">47.45</font></td>
-		<td align="center" valign=middle sdval="37.25" sdnum="1033;0;0.00"><font color="#000000">37.25</font></td>
-		<td align="center" valign=middle sdval="35.75" sdnum="1033;0;0.00"><font color="#000000">35.75</font></td>
-		<td align="center" valign=middle sdval="33" sdnum="1033;0;0.00"><font color="#000000">33.00</font></td>
-		<td align="center" valign=middle sdval="40.25" sdnum="1033;0;0.00"><font color="#000000">40.25</font></td>
-		<td align="center" valign=middle sdval="37" sdnum="1033;0;0.00"><font color="#000000">37.00</font></td>
-		<td align="center" valign=middle sdval="36.65" sdnum="1033;0;0.00"><font color="#000000">36.65</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Falcon-40B</font></b></td>
-		<td align="center" valign=middle sdval="47.38" sdnum="1033;0;0.00"><font color="#000000">47.38</font></td>
-		<td align="center" valign=middle sdval="45" sdnum="1033;0;0.00"><font color="#000000">45.00</font></td>
-		<td align="center" valign=middle sdval="49.62" sdnum="1033;0;0.00"><font color="#000000">49.62</font></td>
-		<td align="center" valign=middle sdval="43.12" sdnum="1033;0;0.00"><font color="#000000">43.12</font></td>
-		<td align="center" valign=middle sdval="50" sdnum="1033;0;0.00"><font color="#000000">50.00</font></td>
-		<td align="center" valign=middle sdval="47.02" sdnum="1033;0;0.00"><font color="#000000">47.02</font></td>
-		<td align="center" valign=middle sdval="34" sdnum="1033;0;0.00"><font color="#000000">34.00</font></td>
-		<td align="center" valign=middle sdval="38.25" sdnum="1033;0;0.00"><font color="#000000">38.25</font></td>
-		<td align="center" valign=middle sdval="30.75" sdnum="1033;0;0.00"><font color="#000000">30.75</font></td>
-		<td align="center" valign=middle sdval="38.75" sdnum="1033;0;0.00"><font color="#000000">38.75</font></td>
-		<td align="center" valign=middle sdval="35.25" sdnum="1033;0;0.00"><font color="#000000">35.25</font></td>
-		<td align="center" valign=middle sdval="35.4" sdnum="1033;0;0.00"><font color="#000000">35.40</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Chinese-LLaMA-2-13B</font></b></td>
-		<td align="center" valign=middle sdval="47.75" sdnum="1033;0;0.00"><font color="#000000">47.75</font></td>
-		<td align="center" valign=middle sdval="46" sdnum="1033;0;0.00"><font color="#000000">46.00</font></td>
-		<td align="center" valign=middle sdval="46.88" sdnum="1033;0;0.00"><font color="#000000">46.88</font></td>
-		<td align="center" valign=middle sdval="45" sdnum="1033;0;0.00"><font color="#000000">45.00</font></td>
-		<td align="center" valign=middle sdval="48.38" sdnum="1033;0;0.00"><font color="#000000">48.38</font></td>
-		<td align="center" valign=middle sdval="46.8" sdnum="1033;0;0.00"><font color="#000000">46.80</font></td>
-		<td align="center" valign=middle sdval="34" sdnum="1033;0;0.00"><font color="#000000">34.00</font></td>
-		<td align="center" valign=middle sdval="38.5" sdnum="1033;0;0.00"><font color="#000000">38.50</font></td>
-		<td align="center" valign=middle sdval="27.75" sdnum="1033;0;0.00"><font color="#000000">27.75</font></td>
-		<td align="center" valign=middle sdval="37.5" sdnum="1033;0;0.00"><font color="#000000">37.50</font></td>
-		<td align="center" valign=middle sdval="34" sdnum="1033;0;0.00"><font color="#000000">34.00</font></td>
-		<td align="center" valign=middle sdval="34.35" sdnum="1033;0;0.00"><font color="#000000">34.35</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-2-13B</font></b></td>
-		<td align="center" valign=middle sdval="49.38" sdnum="1033;0;0.00"><font color="#000000">49.38</font></td>
-		<td align="center" valign=middle sdval="43.5" sdnum="1033;0;0.00"><font color="#000000">43.50</font></td>
-		<td align="center" valign=middle sdval="46.5" sdnum="1033;0;0.00"><font color="#000000">46.50</font></td>
-		<td align="center" valign=middle sdval="44.25" sdnum="1033;0;0.00"><font color="#000000">44.25</font></td>
-		<td align="center" valign=middle sdval="48.25" sdnum="1033;0;0.00"><font color="#000000">48.25</font></td>
-		<td align="center" valign=middle sdval="46.38" sdnum="1033;0;0.00"><font color="#000000">46.38</font></td>
-		<td align="center" valign=middle sdval="30.5" sdnum="1033;0;0.00"><font color="#000000">30.50</font></td>
-		<td align="center" valign=middle sdval="36.5" sdnum="1033;0;0.00"><font color="#000000">36.50</font></td>
-		<td align="center" valign=middle sdval="33.25" sdnum="1033;0;0.00"><font color="#000000">33.25</font></td>
-		<td align="center" valign=middle sdval="36.5" sdnum="1033;0;0.00"><font color="#000000">36.50</font></td>
-		<td align="center" valign=middle sdval="33.25" sdnum="1033;0;0.00"><font color="#000000">33.25</font></td>
-		<td align="center" valign=middle sdval="34" sdnum="1033;0;0.00"><font color="#000000">34.00</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-13B</font></b></td>
-		<td align="center" valign=middle sdval="39.38" sdnum="1033;0;0.00"><font color="#000000">39.38</font></td>
-		<td align="center" valign=middle sdval="40.25" sdnum="1033;0;0.00"><font color="#000000">40.25</font></td>
-		<td align="center" valign=middle sdval="39.88" sdnum="1033;0;0.00"><font color="#000000">39.88</font></td>
-		<td align="center" valign=middle sdval="40.62" sdnum="1033;0;0.00"><font color="#000000">40.62</font></td>
-		<td align="center" valign=middle sdval="43" sdnum="1033;0;0.00"><font color="#000000">43.00</font></td>
-		<td align="center" valign=middle sdval="40.63" sdnum="1033;0;0.00"><font color="#000000">40.63</font></td>
-		<td align="center" valign=middle sdval="32.75" sdnum="1033;0;0.00"><font color="#000000">32.75</font></td>
-		<td align="center" valign=middle sdval="31.75" sdnum="1033;0;0.00"><font color="#000000">31.75</font></td>
-		<td align="center" valign=middle sdval="30.75" sdnum="1033;0;0.00"><font color="#000000">30.75</font></td>
-		<td align="center" valign=middle sdval="38.5" sdnum="1033;0;0.00"><font color="#000000">38.50</font></td>
-		<td align="center" valign=middle sdval="32" sdnum="1033;0;0.00"><font color="#000000">32.00</font></td>
-		<td align="center" valign=middle sdval="33.15" sdnum="1033;0;0.00"><font color="#000000">33.15</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-2-7B</font></b></td>
-		<td align="center" valign=middle sdval="38.88" sdnum="1033;0;0.00"><font color="#000000">38.88</font></td>
-		<td align="center" valign=middle sdval="37" sdnum="1033;0;0.00"><font color="#000000">37.00</font></td>
-		<td align="center" valign=middle sdval="37.5" sdnum="1033;0;0.00"><font color="#000000">37.50</font></td>
-		<td align="center" valign=middle sdval="41.62" sdnum="1033;0;0.00"><font color="#000000">41.62</font></td>
-		<td align="center" valign=middle sdval="42.38" sdnum="1033;0;0.00"><font color="#000000">42.38</font></td>
-		<td align="center" valign=middle sdval="39.48" sdnum="1033;0;0.00"><font color="#000000">39.48</font></td>
-		<td align="center" valign=middle sdval="28.75" sdnum="1033;0;0.00"><font color="#000000">28.75</font></td>
-		<td align="center" valign=middle sdval="29.25" sdnum="1033;0;0.00"><font color="#000000">29.25</font></td>
-		<td align="center" valign=middle sdval="32.75" sdnum="1033;0;0.00"><font color="#000000">32.75</font></td>
-		<td align="center" valign=middle sdval="37.5" sdnum="1033;0;0.00"><font color="#000000">37.50</font></td>
-		<td align="center" valign=middle sdval="32.25" sdnum="1033;0;0.00"><font color="#000000">32.25</font></td>
-		<td align="center" valign=middle sdval="32.1" sdnum="1033;0;0.00"><font color="#000000">32.10</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Chinese-LLaMA-2-7B</font></b></td>
-		<td align="center" valign=middle sdval="36.5" sdnum="1033;0;0.00"><font color="#000000">36.50</font></td>
-		<td align="center" valign=middle sdval="30.75" sdnum="1033;0;0.00"><font color="#000000">30.75</font></td>
-		<td align="center" valign=middle sdval="31.75" sdnum="1033;0;0.00"><font color="#000000">31.75</font></td>
-		<td align="center" valign=middle sdval="36.25" sdnum="1033;0;0.00"><font color="#000000">36.25</font></td>
-		<td align="center" valign=middle sdval="39.5" sdnum="1033;0;0.00"><font color="#000000">39.50</font></td>
-		<td align="center" valign=middle sdval="34.95" sdnum="1033;0;0.00"><font color="#000000">34.95</font></td>
-		<td align="center" valign=middle sdval="30.5" sdnum="1033;0;0.00"><font color="#000000">30.50</font></td>
-		<td align="center" valign=middle sdval="27.75" sdnum="1033;0;0.00"><font color="#000000">27.75</font></td>
-		<td align="center" valign=middle sdval="33" sdnum="1033;0;0.00"><font color="#000000">33.00</font></td>
-		<td align="center" valign=middle sdval="30.5" sdnum="1033;0;0.00"><font color="#000000">30.50</font></td>
-		<td align="center" valign=middle sdval="27.75" sdnum="1033;0;0.00"><font color="#000000">27.75</font></td>
-		<td align="center" valign=middle sdval="29.9" sdnum="1033;0;0.00"><font color="#000000">29.90</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">LLaMA-7B</font></b></td>
-		<td align="center" valign=middle sdval="29.38" sdnum="1033;0;0.00"><font color="#000000">29.38</font></td>
-		<td align="center" valign=middle sdval="30.5" sdnum="1033;0;0.00"><font color="#000000">30.50</font></td>
-		<td align="center" valign=middle sdval="29.25" sdnum="1033;0;0.00"><font color="#000000">29.25</font></td>
-		<td align="center" valign=middle sdval="33.5" sdnum="1033;0;0.00"><font color="#000000">33.50</font></td>
-		<td align="center" valign=middle sdval="28.5" sdnum="1033;0;0.00"><font color="#000000">28.50</font></td>
-		<td align="center" valign=middle sdval="30.23" sdnum="1033;0;0.00"><font color="#000000">30.23</font></td>
-		<td align="center" valign=middle sdval="24" sdnum="1033;0;0.00"><font color="#000000">24.00</font></td>
-		<td align="center" valign=middle sdval="27.5" sdnum="1033;0;0.00"><font color="#000000">27.50</font></td>
-		<td align="center" valign=middle sdval="29.75" sdnum="1033;0;0.00"><font color="#000000">29.75</font></td>
-		<td align="center" valign=middle sdval="33" sdnum="1033;0;0.00"><font color="#000000">33.00</font></td>
-		<td align="center" valign=middle sdval="29.25" sdnum="1033;0;0.00"><font color="#000000">29.25</font></td>
-		<td align="center" valign=middle sdval="28.7" sdnum="1033;0;0.00"><font color="#000000">28.70</font></td>
-	</tr>
-	<tr>
-		<td height="21" align="center" valign=middle><b><font color="#000000">Falcon-7B</font></b></td>
-		<td align="center" valign=middle sdval="26.25" sdnum="1033;0;0.00"><font color="#000000">26.25</font></td>
-		<td align="center" valign=middle sdval="27.75" sdnum="1033;0;0.00"><font color="#000000">27.75</font></td>
-		<td align="center" valign=middle sdval="28.5" sdnum="1033;0;0.00"><font color="#000000">28.50</font></td>
-		<td align="center" valign=middle sdval="29.38" sdnum="1033;0;0.00"><font color="#000000">29.38</font></td>
-		<td align="center" valign=middle sdval="31" sdnum="1033;0;0.00"><font color="#000000">31.00</font></td>
-		<td align="center" valign=middle sdval="28.58" sdnum="1033;0;0.00"><font color="#000000">28.58</font></td>
-		<td align="center" valign=middle sdval="27.25" sdnum="1033;0;0.00"><font color="#000000">27.25</font></td>
-		<td align="center" valign=middle sdval="27.75" sdnum="1033;0;0.00"><font color="#000000">27.75</font></td>
-		<td align="center" valign=middle sdval="27.75" sdnum="1033;0;0.00"><font color="#000000">27.75</font></td>
-		<td align="center" valign=middle sdval="29.75" sdnum="1033;0;0.00"><font color="#000000">29.75</font></td>
-		<td align="center" valign=middle sdval="28.5" sdnum="1033;0;0.00"><font color="#000000">28.50</font></td>
-		<td align="center" valign=middle sdval="28.2" sdnum="1033;0;0.00"><font color="#000000">28.20</font></td>
-	</tr>
-</table>
+#### RoleEval-Chinese (2,000 questions)
+
+| **Model**               | **Celebrities** | **Anime and Comics** | **Movies and TV Series** | **Games** | **Fiction** | **Avg.** |
+|:-------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:----------:|
+| **GPT-4-0613**          | 54.25  | 61.75  | **63.00**  | **63.00**  | **63.00**  | **61.00**    |
+| **GPT-4-1106**          | **57.50**  | **63.50**  | 60.00  | 62.50  | 58.00  | 60.30    |
+| **Yi-34B**              | 56.00  | 52.00  | 47.50  | 55.00  | 57.00  | 53.50    |
+| **Qwen-72B**            | 52.75  | 47.50  | 46.50  | 54.25  | 50.50  | 50.30    |
+| **GPT-3.5-0613**        | 42.00  | 47.75  | 42.50  | 42.25  | 45.50  | 44.00    |
+| **GPT-3.5-1106**        | 38.25  | 45.50  | 44.00  | 44.50  | 46.00  | 43.65    |
+| **LLaMA-2-70B**         | 43.25  | 41.50  | 40.25  | 47.50  | 43.50  | 43.20    |
+| **Yi-6B**               | 42.25  | 38.50  | 41.50  | 44.25  | 45.00  | 42.30    |
+| **Qwen-14B**            | 41.00  | 38.75  | 38.25  | 43.25  | 41.00  | 40.45    |
+| **LLaMA-65B**           | 41.50  | 38.50  | 33.50  | 43.25  | 37.50  | 38.85    |
+| **ChatGLM3-6B**         | 36.25  | 36.25  | 35.25  | 42.25  | 43.50  | 38.70    |
+| **Skywork-13B**         | 39.25  | 34.50  | 38.25  | 41.75  | 38.50  | 38.45    |
+| **MiniMax**             | 34.00  | 39.50  | 40.75  | 38.25  | 39.00  | 38.30    |
+| **Qwen-7B**             | 36.25  | 36.00  | 36.25  | 42.25  | 40.00  | 38.15    |
+| **Baichuan2-7B**        | 37.25  | 35.75  | 33.00  | 40.25  | 37.00  | 36.65    |
+| **Mistral-7B**          | 35.75  | 42.00  | 30.00  | 41.75  | 31.50  | 36.20    |
+| **Baichuan2-13B**       | 35.50  | 36.50  | 31.25  | 42.25  | 34.75  | 36.05    |
+| **Falcon-40B**          | 34.00  | 38.25  | 30.75  | 38.75  | 35.25  | 35.40    |
+| **LLaMA-30B**           | 34.75  | 35.75  | 30.75  | 40.00  | 35.00  | 35.25    |
+| **Chinese-LLaMA-2-13B** | 34.00  | 38.50  | 27.75  | 37.50  | 34.00  | 34.35    |
+| **LLaMA-2-13B**         | 30.50  | 36.50  | 33.25  | 36.50  | 33.25  | 34.00    |
+| **LLaMA-13B**           | 32.75  | 31.75  | 30.75  | 38.50  | 32.00  | 33.15    |
+| **LLaMA-2-7B**          | 28.75  | 29.25  | 32.75  | 37.50  | 32.25  | 32.10    |
+| **Chinese-LLaMA-2-7B**  | 30.50  | 27.75  | 33.00  | 30.50  | 27.75  | 29.90    |
+| **LLaMA-7B**            | 24.00  | 27.50  | 29.75  | 33.00  | 29.25  | 28.70    |
+| **Falcon-7B**           | 27.25  | 27.75  | 27.75  | 29.75  | 28.50  | 28.20    |
+
+
+#### RoleEval-Global (4,000 questions)
+
+| **Model**               | **Celebrities** | **Anime and Comics** | **Movies and TV Series** | **Games** | **Fiction** | **Avg.** |
+|:-------------------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:----------:|
+| **GPT-4-0613**          | **77.62**  | **79.50**  | 73.12  | 74.88  | **75.00**  | **76.02**    |
+| **GPT-4-1106**          | 75.12  | 78.75  | **75.00**  | **76.12**  | **75.00**  | 76.00    |
+| **Yi-34B**              | 73.12  | 61.75  | 67.88  | 57.12  | 67.25  | 65.42    |
+| **Qwen-72B**            | 70.12  | 62.00  | 69.00  | 55.75  | 69.50  | 65.27    |
+| **LLaMA-2-70B**         | 63.25  | 57.38  | 59.00  | 50.00  | 63.25  | 58.58    |
+| **GPT-3.5-0613**        | 57.38  | 59.62  | 58.13  | 59.50  | 57.50  | 58.43    |
+| **GPT-3.5-1106**        | 58.75  | 56.62  | 55.75  | 58.00  | 55.00  | 56.82    |
+| **MiniMax**             | 54.87  | 56.38  | 53.50  | 54.12  | 51.38  | 54.05    |
+| **Yi-6B**               | 59.25  | 52.00  | 54.12  | 47.50  | 56.25  | 53.82    |
+| **Qwen-14B**            | 61.12  | 49.00  | 53.87  | 45.38  | 56.12  | 53.10    |
+| **LLaMA-65B**           | 58.13  | 50.50  | 54.37  | 47.62  | 54.50  | 53.02    |
+| **Baichuan2-13B**       | 56.12  | 47.50  | 51.50  | 45.62  | 54.00  | 50.95    |
+| **Skywork-13B**         | 56.25  | 46.75  | 51.62  | 44.38  | 53.62  | 50.52    |
+| **Mistral-7B**          | 54.87  | 46.75  | 49.62  | 44.25  | 52.25  | 49.55    |
+| **ChatGLM3-6B**         | 55.12  | 46.62  | 49.25  | 43.25  | 52.62  | 49.37    |
+| **LLaMA-30B**           | 51.62  | 46.88  | 48.62  | 43.12  | 52.62  | 48.57    |
+| **Qwen-7B**             | 53.87  | 46.12  | 48.12  | 40.00  | 51.12  | 47.85    |
+| **Baichuan2-7B**        | 51.00  | 45.12  | 49.00  | 42.12  | 50.00  | 47.45    |
+| **Falcon-40B**          | 47.38  | 45.00  | 49.62  | 43.12  | 50.00  | 47.02    |
+| **Chinese-LLaMA-2-13B** | 47.75  | 46.00  | 46.88  | 45.00  | 48.38  | 46.80    |
+| **LLaMA-2-13B**         | 49.38  | 43.50  | 46.50  | 44.25  | 48.25  | 46.38    |
+| **LLaMA-13B**           | 39.38  | 40.25  | 39.88  | 40.62  | 43.00  | 40.63    |
+| **LLaMA-2-7B**          | 38.88  | 37.00  | 37.50  | 41.62  | 42.38  | 39.48    |
+| **Chinese-LLaMA-2-7B**  | 36.50  | 30.75  | 31.75  | 36.25  | 39.50  | 34.95    |
+| **LLaMA-7B**            | 29.38  | 30.50  | 29.25  | 33.50  | 28.50  | 30.23    |
+| **Falcon-7B**           | 26.25  | 27.75  | 28.50  | 29.38  | 31.00  | 28.58    |
+
 
 ## Citation
 If you find our work useful, please cite our paper:
